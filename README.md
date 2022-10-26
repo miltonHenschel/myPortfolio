@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # My Portfolio
 
 > A showcase of a list of the cool projects I've done.
