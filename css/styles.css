@@ -1,1 +1,69 @@
+/* General */
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;left: 0px;
+  top: 92px;
+  background: #1C1A19;
+}
+
+
+
+/* Typography */
+h1 {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  /* flex: none; */
+  /* order: 0; */
+  /* flex-grow: 0; */
+}
+
+h4 {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+p {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+/* Header */
+
+
+/* Footer */
+
+
+/* Media Queries */
 
