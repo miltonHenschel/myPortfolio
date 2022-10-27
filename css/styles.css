@@ -3,8 +3,6 @@ body {
   background: #1C1A19;
 }
 
-/* Typography */
-
 /* Grid */
 .headline {
   display: flex;
@@ -13,13 +11,32 @@ body {
   padding: 0;
   margin: 3rem 7rem;
   gap: 1rem;
+  background: #1C1A19;
   /* position: absolute; */
   /* width: 20rem; */
 }
 
+.nav {
+  order: 0;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  background: #3C3A39;
+}
+
+.nav p {
+  /* justify-content: space-around; */
+  /* align-items: stretch; */
+}
+
+.nav img {
+  /* justify-content: space-around; */
+  /* align-items: flex-end; */
+}
+
 h1 {
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
   width: 100%;
   font-family:'Times New Roman', Times, serif;
@@ -31,7 +48,7 @@ h1 {
 
 h4 {
   flex: none;
-  order: 1;
+  order: 2;
   flex-grow: 0;
   width: 100%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -43,7 +60,7 @@ h4 {
 
 p {
   flex: none;
-  order: 2;
+  order: 3;
   flex-grow: 0;
   width: 100%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -54,15 +71,18 @@ p {
 }
 
 .social-media {
+  order: 4;
+}
+
+.nav, .social-media {
   display: flex;
   flex-direction: row;
-  order: 3;
 }
-/* Header */
 
+/* Typography */
+
+/* Header */
 
 /* Footer */
 
-
 /* Media Queries */
-
