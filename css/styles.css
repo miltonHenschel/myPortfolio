@@ -62,8 +62,7 @@ h4 {
   order: 4;
 }
 
-.nav, 
-
+.nav,
 .social-media {
   display: flex;
   flex-direction: row;
