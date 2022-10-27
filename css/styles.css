@@ -12,8 +12,6 @@ body {
   margin: 3rem 7rem;
   gap: 1rem;
   background: #1c1a19;
-  /* position: absolute; */
-  /* width: 20rem; */
 }
 
 .nav {
@@ -65,15 +63,8 @@ h4 {
 }
 
 .nav, 
+
 .social-media {
   display: flex;
   flex-direction: row;
 }
-
-/* Typography */
-
-/* Header */
-
-/* Footer */
-
-/* Media Queries */
