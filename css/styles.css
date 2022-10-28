@@ -8,6 +8,7 @@
   padding: 0;
 }
 
+/* Flex */
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -15,7 +16,7 @@ body {
   background-color: #1c1a19;
 }
 
-/* Flex */
+/* Header and Headline */
 .nav,
 .social-media {
   display: flex;
@@ -97,4 +98,11 @@ img:hover {
 
 img:active {
   background: #f55a00;
+}
+
+/* Works and About myself */
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
 }
