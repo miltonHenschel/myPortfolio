@@ -13,26 +13,39 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
+--->
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- A PC running any operating system like Windows, Linux, or MacOS
+- An Internet connection
+- A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
+- Git installed 
+- Knowledge of some basic Git commands
+
 ### Setup
+
+- Link your PC to GitHub
+- Clone the repository
+- Open the file in your code editor
+- Setup HTML&CSS linters
 
 ### Install
 
+- node_models
+- project dependencies
+
+<!--
 ### Usage
 
 ### Run tests
 
 ### Deployment
---->
+-->
 
 ### Authors
 
