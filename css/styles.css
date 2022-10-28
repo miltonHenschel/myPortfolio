@@ -25,10 +25,12 @@ body {
   padding: 0 2rem;
 }
 
-.nav a {
+.nav a,
+.nav nav {
   align-self: center;
   text-decoration: none;
   color: #fff;
+  margin: 1rem 0;
 }
 
 .headline {
@@ -44,7 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
-  background-size: 40% 40%;
+  background-size: 40% 30%;
 }
 
 .headline h1 {
