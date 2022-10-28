@@ -1,69 +1,88 @@
-/* General */
-body {
-  background: #1c1a19;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Grid */
+body {
+  font-family: 'Roboto';
+  text-align: center;
+  align-items: center;
+  background-color: #1c1a19;
+  background-image: url("/myPortfolio/images/Group.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Flex */
+.nav,
+.social-media {
+  display: flex;
+  order: 0;
+  justify-content: space-between;
+  background: #3c3a39;
+  padding: 0 2rem;
+}
+
+.nav a {
+  align-self: center;
+  text-decoration: none;
+  color: #fff;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0;
-  margin: 3rem 7rem;
+  text-align: left;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin: 0;
   gap: 1rem;
-  background: #1c1a19;
 }
 
-.nav {
-  order: 0;
-  justify-content: space-around;
-  align-items: flex-end;
-  width: 100%;
-  background: #3c3a39;
-}
-
-h1 {
+.headline h1 {
   flex: none;
   order: 1;
   flex-grow: 0;
-  width: 100%;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 3rem;
   color: #ff6b00;
+  font-size: 4rem;
+  font-family: 'Crete Round';
 }
 
-h4 {
+.headline h2 {
   flex: none;
   order: 2;
   flex-grow: 0;
-  width: 100%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-align: left;
   color: #fff;
+  font-family: 'Roboto';
+  font-size: 2rem;
 }
 
-.nav p {
+.headline p {
   flex: none;
   order: 3;
   flex-grow: 0;
-  width: 100%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
   color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.25rem;
 }
 
 .social-media {
   order: 4;
+  list-style-type: none;
+  background: none;
+  gap: 1em;
+  padding-left: 0;
 }
 
-.nav,
-.social-media {
-  display: flex;
-  flex-direction: row;
+img:hover {
+  background: #fff5e1;
+  border: 0.15rem solid #f55a00;
+  border-radius: 15%;
+}
+
+img:active {
+  background: #f55a00;
 }
