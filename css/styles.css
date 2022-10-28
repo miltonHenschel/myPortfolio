@@ -46,7 +46,6 @@ body {
   background-image: url(../images/Background.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-attachment: fixed;
   background-size: 40% 30%;
 }
 
@@ -102,7 +101,72 @@ img:active {
 
 /* Works and About myself */
 
-.grid-container {
+.works {
   display: grid;
   gap: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  background: #e5e5e5;
 }
+
+.works-item {
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.footer {
+  text-align: left;
+  padding: 2rem;
+  height: 50rem;
+  background-image: url(../images/about\ me.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 40% 40%;
+}
+
+.footer h1{
+  color: #f55a00;
+  font-size: 4rem;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.footer p {
+  color: #fff;
+  margin: 1rem 0 0 0;
+}
+
+.footer button {
+  padding: 1rem;
+  margin: 2rem 0 17rem 0;
+  background: #f55a00;
+  color: #fff;
+  border-width: .1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer ul {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+
+
+
