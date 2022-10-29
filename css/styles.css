@@ -338,7 +338,7 @@ footer:first-of-type {
 .input {
   padding: 1rem;
   border: 0;
-  border-bottom: .1rem solid;
+  border-bottom: 0.1rem solid;
 }
 
 #email {
@@ -362,9 +362,9 @@ footer:first-of-type {
 
 #form-button {
   text-align: center;
-  border: .2rem solid #f55a00;
+  border: 0.2rem solid #f55a00;
   background-color: #f55a00;
-  color:#e5e5e5;
+  color: #e5e5e5;
   font-size: 1.5rem;
   height: 5rem;
   width: 10rem;
