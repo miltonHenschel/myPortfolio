@@ -13,7 +13,6 @@ body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   align-items: center;
-  background-color: #1c1a19;
 }
 
 /* Header and Headline */
@@ -47,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 40% 30%;
+  background-color: #1c1a19;
 }
 
 .headline h1 {
@@ -131,13 +131,28 @@ img:active {
   color: white;
 }
 
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+hr {
+  margin-bottom: 5rem;
+}
 .footer {
   text-align: left;
   padding: 2rem;
-  height: 50rem;
+  background-color: #1c1a19;
+  border-bottom: 0;
+}
+
+footer:first-of-type {
   background-image: url(../images/about\ me.png);
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: bottom right;
   background-size: 40% 40%;
 }
 
@@ -154,7 +169,7 @@ img:active {
 
 .footer button {
   padding: 1rem;
-  margin: 2rem 0 17rem 0;
+  margin: 2rem 0 5rem 0;
   background: #f55a00;
   color: #fff;
   border-width: .1rem;
@@ -164,9 +179,39 @@ img:active {
 
 .footer ul {
   color: #fff;
-  text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
 }
 
+.no-style {
+  list-style: none;
+}
 
+.list-style {
+  font-weight: 900;
+}
 
+#diamond {
+  list-style-image: url("../images/diamond.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#square {
+  list-style-image: url("../images/square.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#disc {
+  list-style-image: url("../images/disc.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#last-list {
+  padding-bottom: 7em;
+}
