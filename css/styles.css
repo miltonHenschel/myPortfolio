@@ -11,7 +11,6 @@
 /* Flex */
 body {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
   align-items: center;
 }
 
@@ -233,7 +232,7 @@ img:active {
 
 /* About myself */
 .button {
-  background-color: #4caf50; /* Green */
+  background-color: #f55a00;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -245,8 +244,7 @@ img:active {
 }
 
 .button:hover {
-  background-color: #4caf50; /* Green */
-  color: white;
+  background-color: #3c3a39;
 }
 
 hr {
@@ -312,3 +310,63 @@ footer:first-of-type {
 }
 
 /* Form */
+#form {
+  padding: 1rem;
+  font-weight: 900;
+  font-family: 'Crimson Pro', sans-serif;
+  border: 0;
+  margin: 2rem;
+}
+
+#form h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#contact-form {
+  padding: 1rem;
+  text-align: left;
+  border: 0;
+}
+
+#form fieldset {
+  border: 0;
+  padding: 0.5rem 0;
+}
+
+.input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: .1rem solid;
+}
+
+#email {
+  margin-bottom: 2rem;
+}
+
+#comments {
+  border: 0;
+  height: 10rem;
+  width: 15rem;
+  background-color: #e5e5e5;
+  padding: 1rem;
+}
+
+#bottom-page {
+  margin: 0 6em 1em 6em;
+  padding-bottom: 1rem;
+  border-bottom: 0.2rem solid;
+  color: #000;
+}
+
+#form-button {
+  text-align: center;
+  border: .2rem solid #f55a00;
+  background-color: #f55a00;
+  color:#e5e5e5;
+  font-size: 1.5rem;
+  height: 5rem;
+  width: 10rem;
+  margin-left: 2.5rem;
+}
