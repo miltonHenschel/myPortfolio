@@ -8,14 +8,13 @@
   padding: 0;
 }
 
+/* Flex */
 body {
   font-family: 'Roboto', sans-serif;
-  text-align: center;
   align-items: center;
-  background-color: #1c1a19;
 }
 
-/* Flex */
+/* Header and Headline */
 .nav,
 .social-media {
   display: flex;
@@ -23,6 +22,14 @@ body {
   justify-content: space-between;
   background: #3c3a39;
   padding: 0 2rem;
+}
+
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
 }
 
 .nav a,
@@ -45,11 +52,12 @@ body {
   background-image: url(../images/Background.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-attachment: fixed;
   background-size: 40% 30%;
+  background-color: #1c1a19;
 }
 
-.headline h1 {
+.headline h1,
+.works-item h1 {
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -97,4 +105,278 @@ img:hover {
 
 img:active {
   background: #f55a00;
+}
+
+/* Works */
+#projects {
+  display: grid;
+  font-family: 'Crimson Pro', sans-serif;
+  border: 0;
+}
+
+.footer h1 {
+  color: #f55a00;
+  font-size: 4rem;
+  font-family: 'Crete Round', sans-serif;
+}
+
+#projects h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0 0.5rem 2rem 0.5rem;
+  margin: 1.5rem;
+  border-bottom: 0.1rem solid;
+}
+
+#flex-projects {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+}
+
+#flex-projects div img {
+  padding: 2rem 0;
+  width: 90%;
+  height: 90%;
+}
+
+#flex-projects h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.lang-box {
+  padding: 1.5rem 0;
+}
+
+.lang-box span {
+  border: 0.2px solid;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+
+#lang-box {
+  color: #fff;
+}
+
+.works-lang li {
+  border: 0.05rem solid;
+  padding: 0.5rem;
+}
+
+.works-list li {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: #e5e5e500;
+}
+
+.flex-button {
+  background-color: #e5e5e5;
+}
+
+.footer button {
+  padding: 1rem;
+  margin: 2rem 0 5rem 0;
+  background: #f55a00;
+  color: #fff;
+  border-width: 0.1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#flex-projects div button {
+  padding: 0.5rem;
+  background-color: #f55a00;
+  color: #fff;
+  font-weight: bold;
+  border-width: 0.1rem;
+}
+
+.demo-wrap::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-image: url('../images/Placeholder.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.demo-content,
+.demo-wrap {
+  position: relative;
+}
+
+.main-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-weight: 900;
+}
+
+.main-projects h3,
+.main-projects p,
+.main-projects .lang-box {
+  order: 0;
+  padding: 1rem 2rem;
+}
+
+.main-projects h3 {
+  padding-top: 5rem;
+}
+
+.main-projects a {
+  order: 0;
+  padding: 0.5rem;
+}
+
+#last-item {
+  margin-bottom: 5rem;
+}
+
+/* About myself */
+.button {
+  background-color: #f55a00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #3c3a39;
+}
+
+hr {
+  margin-bottom: 5rem;
+}
+
+.footer {
+  text-align: left;
+  padding: 2rem;
+  background-color: #1c1a19;
+  border-bottom: 0;
+}
+
+footer:first-of-type {
+  background-image: url(../images/about\ me.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 40% 40%;
+}
+
+.footer p {
+  color: #fff;
+  margin: 1rem 0 0 0;
+}
+
+.footer ul {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.no-style {
+  list-style: none;
+}
+
+.list-style {
+  font-weight: 900;
+}
+
+#diamond {
+  list-style-image: url("../images/diamond.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#square {
+  list-style-image: url("../images/square.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#disc {
+  list-style-image: url("../images/disc.png");
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#last-list {
+  padding-bottom: 7em;
+}
+
+/* Form */
+#form {
+  padding: 1rem;
+  font-weight: 900;
+  font-family: 'Crimson Pro', sans-serif;
+  border: 0;
+  margin: 2rem;
+}
+
+#form h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#contact-form {
+  padding: 1rem;
+  text-align: left;
+  border: 0;
+}
+
+#form fieldset {
+  border: 0;
+  padding: 0.5rem 0;
+}
+
+.input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: 0.1rem solid;
+}
+
+#email {
+  margin-bottom: 2rem;
+}
+
+#comments {
+  border: 0;
+  height: 10rem;
+  width: 15rem;
+  background-color: #e5e5e5;
+  padding: 1rem;
+}
+
+#bottom-page {
+  margin: 0 6em 1em 6em;
+  padding-bottom: 1rem;
+  border-bottom: 0.2rem solid;
+  color: #000;
+}
+
+#form-button {
+  text-align: center;
+  border: 0.2rem solid #f55a00;
+  background-color: #f55a00;
+  color: #e5e5e5;
+  font-size: 1.25rem;
+  height: 3rem;
+  width: 8rem;
+  margin-left: 3.5rem;
 }
