@@ -6,11 +6,13 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<>
+
+<body>
   <header class="nav">
     <a href="">Henschel</a>
     <nav><a href=""><img src="images/more.png" alt="More" width="55" height="55" /></a></nav>
   </header>
+
   <section class="headline">
       <h1>Hey there! <br /> I’m Henschel.</h1>
       <h2>I’am a Software Developer.</h2>
@@ -23,21 +25,76 @@
         <li><a href="https://medium.com/@nketchoguemilton"><img src="images/medium.svg" alt="Medium" width="55" height="55" /></a></li>
       </ul>
     </section>
+<!--
     <section class="works">
+
+      <div class="works-1">
+        <div class="works-flex">
+
+        </div>
+
         <div class="works-item">My Recent Works<hr /></div>
+
         <div class="works-item">Multi-Post Stories<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p></div>
-        <div class="works-item">Professional Art Printing Data<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p></div>
-        <div class="works-item">4</div>
-        <div class="works-item">5</div>
-        <div class="works-item">6</div>
-        <div class="works-item">7</div>
-        <div class="works-item">8</div>
+      </div>
+
+      <div class="works-2">
+        <div class="works-flex">
+          <h1>Professional Art Printing Data</h1>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p class="wrap-boxes">html</p>
+          <p class="wrap-boxes">bootstrap</p>
+          <p class="wrap-boxes">ruby</p>
+        </div>
+
+        <div class="works-flex">See project</div>
+      </div>
+
+      <div class="works-3">3</div>
+
+      <div class="works-4">4</div>
+
+      <div class="works-5">5</div>
+
+      <div class="works-6">6</div>
     </section>
+  -->
+  <section id="projects">
+    <div>
+      <h1>My Recent Works</h1>
+    </div>
+    <div>
+      <div id="flex-projects">
+        <div>
+          <img src="./images/gymfit.png" alt="gymfit" />
+        </div>
+        <div>
+          <h2>Multi-Post Stories</h2>
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a standard
+            dummy text. A daily selection of privately personalized reads; no
+            accounts or sign-ups required.
+          </p>
+          <div id="lang-box">
+            <span>css</span>
+            <span>html</span>
+            <span>bootstrap</span>
+            <span>ruby</span>
+          </div>
+          <a href=""></a><button>See Project</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <footer class="footer">
       <h1>About me</h1>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-      <button class="button"><a href="https://drive.google.com/file/d/1D3v3WMohFK-9VfpdwMAeVZudj8reqxcA/view?usp=sharing">Get My Resume</a></button>
+      <a href="https://drive.google.com/file/d/1D3v3WMohFK-9VfpdwMAeVZudj8reqxcA/view?usp=sharing"></a><button class="button">Get My Resume</button></a>
     </footer>
+
     <section class="footer">
       <hr />
       <ul>
@@ -73,10 +130,23 @@
             <li>Github</li>
             <li>Codepen</li>
             <li>Gitlab</li>
-            <li id="last-list">Terminal`</li>
+            <li id="last-list">Terminal</li>
           </ul>
         </li>
       </ul>
     </section>
+
+    <section id="form-section">
+      <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+
+      <form action="https://formspree.io/f/moqrdeno" method="POST" id="contact-form">
+        <fieldset>
+          <input class="inputs" type="text" name="full-name" id="fullname" maxlength="30" placeholder="Enter your name" required />
+          <input class="inputs" type="email" name="email" id="email" placeholder="Email" required />
+          <textarea name="comments" id="comments" maxlength="500" placeholder="Enter text here"></textarea>
+        </fieldset>
+        <input type="submit" id="submit" name="submit" value="Get in touch" />
+        <small class="small hidden show">Please, enter valid Email: lower case only.</small>
+      </form>
 </body>
 </html>
