@@ -111,6 +111,7 @@ img:active {
 #projects {
   display: grid;
   font-family: 'Crimson Pro', sans-serif;
+  border: 0;
 }
 
 .footer h1 {
@@ -157,12 +158,16 @@ img:active {
 
 #lang-box {
   color: #fff;
-  font-weight: bold;
 }
 
-#works-lang li {
-  border: 0.1rem solid;
+.works-lang li {
+  border: 0.05rem solid;
   padding: 0.5rem;
+}
+
+.works-list li {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: #e5e5e500;
 }
 
 .flex-button {
@@ -172,7 +177,7 @@ img:active {
 .footer button {
   padding: 1rem;
   margin: 2rem 0 5rem 0;
-  background: #d7c6bc;
+  background: #f55a00;
   color: #fff;
   border-width: 0.1rem;
   font-size: 1rem;
@@ -370,8 +375,8 @@ footer:first-of-type {
   border: 0.2rem solid #f55a00;
   background-color: #f55a00;
   color: #e5e5e5;
-  font-size: 1.5rem;
-  height: 5rem;
-  width: 10rem;
-  margin-left: 2.5rem;
+  font-size: 1.25rem;
+  height: 3rem;
+  width: 8rem;
+  margin-left: 3.5rem;
 }
