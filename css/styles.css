@@ -160,6 +160,11 @@ img:active {
   font-weight: bold;
 }
 
+#works-lang li {
+  border: 0.1rem solid;
+  padding: 0.5rem;
+}
+
 .flex-button {
   background-color: #e5e5e5;
 }
