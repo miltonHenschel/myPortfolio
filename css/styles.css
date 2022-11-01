@@ -382,5 +382,6 @@ footer:first-of-type {
 }
 
 .projects-title {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
