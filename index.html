@@ -204,23 +204,36 @@
     </section>
 
     <!-- FOOTER  -->
-    <footer 
-    id="contact"
-    action=""
-    mehtod="POST"
-    >
+    <footer>
       <h2>
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </h2>
-      <form>
-        <input 
+      <form
+      id="contact"
+      action="https://formspree.io/f/mrgdolqb"
+      method="POST">
+        <input
         type="text"
         autocomplete="off"
         name="name"
         id="name"
         placeholder="Full name"
         required
-        >
+        />
+        <input
+        type="email"
+        autocomplete="off"
+        name="email"
+        id="email"
+        placeholder="johndoe@google.com"
+        required
+        />
+        <textarea
+        name="message"
+        id="message"
+        maxlength="500"
+        placeholder="Write a message">
+        </textarea>
       </form>
     </footer>
 </body>
