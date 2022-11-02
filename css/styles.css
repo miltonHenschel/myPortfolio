@@ -243,18 +243,19 @@ img:active {
 /* About myself */
 .button {
   background-color: #f55a00;
-  border: none;
+  border: 0.2rem solid #f55a00;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.25rem;
   transition-duration: 0.4s;
 }
 
 .button:hover {
-  background-color: #3c3a39;
+  background-color: #ffffff;
+  color: #f55a00;
 }
 
 hr {
@@ -325,42 +326,59 @@ hr {
   font-weight: 900;
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
-  margin: 2rem;
+  margin: 1rem;
 }
 
-#form h1 {
+#form h2 {
   font-size: 2.5rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+  color: #172b4d;
 }
 
 #contact-form {
   padding: 1rem;
   text-align: left;
   border: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-#form fieldset {
-  border: 0;
-  padding: 0.5rem 0;
-}
-
-.input {
+#email, #name {
+  margin-bottom: 2rem;
   padding: 1rem;
   border: 0;
   border-bottom: 0.1rem solid;
+  color: #979493;
+  font-size: 1rem;
 }
 
-#email {
-  margin-bottom: 2rem;
-}
-
-#comments {
+#message {
   border: 0;
-  height: 10rem;
-  width: 15rem;
+  height: 15vh;
+  width: 100%;
   background-color: #e5e5e5;
   padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#form-button {
+  height: 5%;
+  width: 50%;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+
+#form-social-media {
+  display: ;
+}
+
+.form-social-media {
+  padding: 1rem;
+  margin: 0.5rem;
+  color: #000;
 }
 
 #bottom-page {
@@ -368,17 +386,6 @@ hr {
   padding-bottom: 1rem;
   border-bottom: 0.2rem solid;
   color: #000;
-}
-
-#form-button {
-  text-align: center;
-  border: 0.2rem solid #f55a00;
-  background-color: #f55a00;
-  color: #e5e5e5;
-  font-size: 1.25rem;
-  height: 3rem;
-  width: 8rem;
-  margin-left: 3.5rem;
 }
 
 .projects-title {
