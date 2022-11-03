@@ -371,13 +371,16 @@ hr {
   padding: 0.5rem;
 }
 
-#form-social-media {
-  display: ;
+#contact-social-form {
+  padding-bottom: 2rem;
+  border-bottom: 0.5rem solid;
+  width: 60%;
+  margin: auto;
 }
 
 .form-social-media {
-  padding: 1rem;
-  margin: 0.5rem;
+  padding: 0;
+  margin-top: 5rem;
   color: #000;
 }
 
