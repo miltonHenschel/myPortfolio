@@ -344,7 +344,8 @@ hr {
   flex-direction: column;
 }
 
-#email, #name {
+#email,
+#name {
   margin-bottom: 2rem;
   padding: 1rem;
   border: 0;
