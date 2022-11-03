@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -114,7 +114,7 @@ img:active {
   border: 0;
 }
 
-.footer h1 {
+.about-me h1 {
   color: #f55a00;
   font-size: 4rem;
   font-family: 'Crete Round', sans-serif;
@@ -174,7 +174,7 @@ img:active {
   background-color: #e5e5e5;
 }
 
-.footer button {
+.about-me button {
   padding: 1rem;
   margin: 2rem 0 5rem 0;
   background: #f55a00;
@@ -243,44 +243,45 @@ img:active {
 /* About myself */
 .button {
   background-color: #f55a00;
-  border: none;
+  border: 0.2rem solid #f55a00;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.25rem;
   transition-duration: 0.4s;
 }
 
 .button:hover {
-  background-color: #3c3a39;
+  background-color: #fff;
+  color: #f55a00;
 }
 
 hr {
   margin-bottom: 5rem;
 }
 
-.footer {
+.about-me {
   text-align: left;
   padding: 2rem;
   background-color: #1c1a19;
   border-bottom: 0;
 }
 
-footer:first-of-type {
+.about-me:first-of-type {
   background-image: url(../images/about\ me.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40% 40%;
 }
 
-.footer p {
+.about-me p {
   color: #fff;
   margin: 1rem 0 0 0;
 }
 
-.footer ul {
+.about-me ul {
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -298,19 +299,19 @@ footer:first-of-type {
 }
 
 #diamond {
-  list-style-image: url("../images/diamond.png");
+  list-style-image: url('../images/diamond.png');
   font-size: 1.5rem;
   padding: 1rem;
 }
 
 #square {
-  list-style-image: url("../images/square.png");
+  list-style-image: url('../images/square.png');
   font-size: 1.5rem;
   padding: 1rem;
 }
 
 #disc {
-  list-style-image: url("../images/disc.png");
+  list-style-image: url('../images/disc.png');
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -325,42 +326,63 @@ footer:first-of-type {
   font-weight: 900;
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
-  margin: 2rem;
+  margin: 1rem;
 }
 
-#form h1 {
+#form h2 {
   font-size: 2.5rem;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
+  color: #172b4d;
 }
 
 #contact-form {
   padding: 1rem;
   text-align: left;
   border: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-#form fieldset {
-  border: 0;
-  padding: 0.5rem 0;
-}
-
-.input {
+#email,
+#name {
+  margin-bottom: 2rem;
   padding: 1rem;
   border: 0;
   border-bottom: 0.1rem solid;
+  color: #979493;
+  font-size: 1rem;
 }
 
-#email {
-  margin-bottom: 2rem;
-}
-
-#comments {
+#message {
   border: 0;
-  height: 10rem;
-  width: 15rem;
+  height: 15vh;
+  width: 100%;
   background-color: #e5e5e5;
   padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#form-button {
+  height: 5%;
+  width: 50%;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+
+#contact-social-form {
+  padding-bottom: 2rem;
+  border-bottom: 0.5rem solid;
+  width: 60%;
+  margin: auto;
+}
+
+.form-social-media {
+  padding: 0;
+  margin-top: 5rem;
+  color: #000;
 }
 
 #bottom-page {
@@ -370,13 +392,8 @@ footer:first-of-type {
   color: #000;
 }
 
-#form-button {
-  text-align: center;
-  border: 0.2rem solid #f55a00;
-  background-color: #f55a00;
-  color: #e5e5e5;
-  font-size: 1.25rem;
-  height: 3rem;
-  width: 8rem;
-  margin-left: 3.5rem;
+.projects-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.5rem;
 }
