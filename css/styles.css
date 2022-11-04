@@ -120,11 +120,17 @@ img:active {
   background: #f55a00;
 }
 
-/* Works */
+/* Projects */
 #projects {
   display: grid;
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
+}
+
+#projects-title {
+  padding: 10rem 0rem 5rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
 .about-me h1 {
@@ -145,18 +151,27 @@ img:active {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 #flex-projects div img {
-  padding: 2rem 0;
-  width: 90%;
-  height: 90%;
+  padding: 5rem 0;
+  width: 100%;
+  height: auto;
 }
 
 #flex-projects h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
+}
+
+#works-hr {
+  margin: auto;
+  width: 85%;
+}
+
+.center-img {
+  text-align: center;
 }
 
 .lang-box {
@@ -176,6 +191,8 @@ img:active {
 .works-lang li {
   border: 0.05rem solid;
   padding: 0.5rem;
+  font-size: 3rem;
+  margin-right: auto;
 }
 
 .works-list li {
@@ -198,11 +215,20 @@ img:active {
 }
 
 #flex-projects div button {
-  padding: 0.5rem;
+  padding: 1.5rem;
   background-color: #f55a00;
   color: #fff;
   font-weight: bold;
   border-width: 0.1rem;
+  font-size: 2rem;
+}
+
+#flex-projects div p {
+  font-size: 2rem;
+}
+
+.link-project {
+  font-size: 4rem;
 }
 
 .demo-wrap::before {
@@ -230,7 +256,6 @@ img:active {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  font-weight: 900;
 }
 
 .main-projects h3,
@@ -435,5 +460,5 @@ hr {
     height: inherit;
   }
 
-  /* Headline */
+  /* Projects */
 }
