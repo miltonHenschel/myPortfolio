@@ -129,11 +129,11 @@ img:active {
 
 #projects-title {
   padding: 10rem 0rem 5rem;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
-.about-me h1 {
+#about-me h1 {
   color: #f55a00;
   font-size: 4rem;
   font-family: 'Crete Round', sans-serif;
@@ -204,7 +204,7 @@ img:active {
   background-color: #e5e5e5;
 }
 
-.about-me button {
+#about-me button {
   padding: 1rem;
   margin: 2rem 0 5rem 0;
   background: #f55a00;
@@ -300,26 +300,26 @@ hr {
   margin-bottom: 5rem;
 }
 
-.about-me {
+#about-me {
   text-align: left;
   padding: 2rem;
   background-color: #1c1a19;
   border-bottom: 0;
 }
 
-.about-me:first-of-type {
-  background-image: url(../images/about\ me.png);
+#about-me {
+  background-image: url("./images/about me.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40% 40%;
 }
 
-.about-me p {
+#about-me p {
   color: #fff;
   margin: 1rem 0 0 0;
 }
 
-.about-me ul {
+#about-me ul {
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -461,4 +461,21 @@ hr {
   }
 
   /* Projects */
+  #works-hr {
+    margin: auto;
+    width: 50%;
+  }
+
+  #projects div {
+    display: flex;
+  }
+
+  #projects-title {
+    padding: 10rem 2rem 10rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+
 }
