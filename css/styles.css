@@ -412,7 +412,7 @@ hr {
 #contact-social-form {
   padding-bottom: 2rem;
   border-bottom: 0.5rem solid;
-  width: 60%;
+  width: 20%;
   margin: auto;
 }
 
@@ -420,6 +420,10 @@ hr {
   padding: 0;
   margin-top: 5rem;
   color: #000;
+}
+
+#social-media-footer {
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -586,5 +590,9 @@ hr {
 
   #name {
     display: none;
+  }
+
+  #contact-social-form {
+    width: 25%;
   }
 }
