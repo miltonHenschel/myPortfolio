@@ -209,48 +209,48 @@
 
       <hr />
 
-      <ul>
-        <li class="no-style">
-          <ul class="list-style" id="diamond">
-            <li>Languages</li>
-          </ul>
-
-          <ul class="no-style">
+      <section id="about-me-lang">
+        <div>
+          <div>
+            <img src="./images/diamond.png" alt="diamond" />
+            <h2>Languages</h2>
+          </div>
+          <ul>
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Ruby</li>
           </ul>
-        </li>
+        </div>
 
-        <li class="no-style">
-          <ul class="list-style" id="square">
-            <li>Frameworks</li>
-          </ul>
-
-          <ul class="no-style">
+        <div>
+          <div>
+            <img src="./images/square.png" alt="square" />
+            <h2>Frameworks</h2>
+          </div>
+          <ul>
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
             <li>RSPec</li>
             <li>CapyBara</li>
             <li>Selenium</li>
           </ul>
-        </li>
+        </div>
 
-        <li class="no-style">
-          <ul class="list-style" id="disc">
-            <li>Skills</li>
-          </ul>
-
-          <ul class="no-style">
+        <div>
+          <div>
+            <img src="./images/rectangle.png" alt="square" />
+            <h2>Skills</h2>
+          </div>
+          <ul>
             <li>Codekit</li>
             <li>Github</li>
             <li>Codepen</li>
             <li>Gitlab</li>
             <li id="last-list">Terminal</li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </section>
     </section>
 
     <!-- FOOTER  -->
@@ -259,6 +259,10 @@
 
       <form id="contact-form" action="https://formspree.io/f/mrgdolqb" method="POST">
         <input type="text" autocomplete="off" name="name" id="name" placeholder="Full name" maxlength="30" required />
+
+        <input type="text" autocomplete="off" name="firstname" id="firstname" placeholder="First name" maxlength="30" required />
+
+        <input type="text" autocomplete="off" name="lastname" id="lastname" placeholder="Last name" maxlength="30" required />
 
         <input type="email" autocomplete="off" name="email" id="email" placeholder="johndoe@google.com" required />
 

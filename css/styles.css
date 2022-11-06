@@ -309,48 +309,50 @@ hr {
   margin: 1rem 0 0 0;
 }
 
-#about-me ul {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  gap: 1rem;
-}
-
-.no-style {
-  list-style: none;
-}
-
-.list-style {
-  font-weight: 900;
-}
-
-#diamond {
-  list-style-image: url('../images/diamond.png');
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-#square {
-  list-style-image: url('../images/square.png');
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-#disc {
-  list-style-image: url('../images/disc.png');
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
 #last-list {
   padding-bottom: 7em;
 }
 
+/* Languages */
+#about-me-lang {
+  color: #fff;
+}
+
+#about-me-lang div {
+  justify-content: center;
+}
+
+#about-me-lang div div {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#about-me-lang div div img {
+  order: 1;
+}
+
+#about-me-lang div div h2 {
+  order: 2;
+}
+
+#about-me-lang div ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-me-lang div ul li {
+  padding: 0.5rem;
+}
+
 /* Form */
 #form {
-  padding: 1rem;
+  padding: 2rem;
   font-weight: 900;
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
@@ -373,13 +375,20 @@ hr {
 }
 
 #email,
-#name {
+#name,
+#firstname,
+#lastname {
   margin-bottom: 2rem;
   padding: 1rem;
   border: 0;
   border-bottom: 0.1rem solid;
   color: #979493;
   font-size: 1rem;
+}
+
+#firstname,
+#lastname {
+  display: none;
 }
 
 #message {
@@ -529,5 +538,53 @@ hr {
   #flex-projects div button {
     padding: 1rem;
     font-size: 1rem;
+  }
+
+  /* About me */
+  #about-me ul {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  /* Languages */
+  #about-me-lang {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+
+  /* Form */
+  #form {
+    display: flex;
+    gap: 2rem;
+  }
+
+  #form h2 {
+    text-align: left;
+    width: 39%;
+  }
+
+  #contact-form {
+    display: unset;
+    width: 59%;
+  }
+
+  #form-button {
+    height: auto;
+    width: auto;
+  }
+
+  #firstname,
+  #lastname {
+    width: 48%;
+    display: inline;
+  }
+
+  #firstname {
+    margin-right: 1rem;
+  }
+
+  #name {
+    display: none;
   }
 }
