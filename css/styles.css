@@ -534,7 +534,7 @@ hr {
   }
 
   .center-img {
-    margin: -4rem 2rem 0rem 0rem;
+    margin: -4rem 2rem 0 0;
   }
 
   #flex-projects div button {
