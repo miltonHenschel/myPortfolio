@@ -432,10 +432,17 @@ hr {
 
   .headline div {
     order: 2;
+    width: 49%;
   }
 
   .headline h2 {
     padding: 1rem 0;
+  }
+
+  #headline-social-media {
+    order: 1;
+    width: 9%;
+    display: block;
   }
 
   .social-media {
@@ -443,18 +450,24 @@ hr {
     background: none;
     gap: 1em;
     padding: 0;
-    display: inline-flex;
-}
+  }
+
+  .social-media li {
+    padding: 0.5rem;
+  }
+
+  .social-media li a {
+    height: 2vh;
+  }
 
   .headline img {
     order: 3;
-    width: auto;
+    width: 44%;
     height: inherit;
   }
 
   /* Projects */
   #works-hr {
-    margin: auto;
     width: 50%;
   }
 
@@ -465,21 +478,24 @@ hr {
 
   #flex-projects {
     display: flex;
-  }
-
-  #flex-projects {
     justify-content: space-around;
     flex-direction: row;
   }
 
   #projects-section-1 {
     order: 1;
-    width: 39%;
+    width: 100%;
+    display: flex;
+    margin-bottom: -6rem;
   }
 
   #projects-section-2 {
     order: 2;
-    width: 59%;
+    width: 30%;
+  }
+
+  #projects-section-1 div {
+    margin-left: 1rem;
   }
 
   #projects {
@@ -488,7 +504,7 @@ hr {
 
   #flex-projects h2 {
     font-size: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
   }
 
   #flex-projects div p {
@@ -497,12 +513,17 @@ hr {
 
   .lang-box {
     padding: 1rem 0;
+    display: flex;
   }
 
   .works-lang li {
     border: 0.05rem solid;
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
+  }
+
+  .center-img {
+    margin: -4rem 2rem 0rem 0rem;
   }
 
   #flex-projects div button {
