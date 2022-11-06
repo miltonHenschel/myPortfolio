@@ -40,8 +40,25 @@ a:visited {
   list-style-type: none;
 }
 
+.main-projects a {
+  order: 0;
+  padding: 0.5rem;
+}
+
 .nav nav a {
   padding-right: 0.5rem;
+}
+
+.works-lang li {
+  border: 0.05rem solid;
+  padding: 0.5rem;
+  font-size: 3rem;
+  margin-right: auto;
+}
+
+.works-list li {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: #e5e5e500;
 }
 
 #menu li {
@@ -178,18 +195,6 @@ img {
   color: #fff;
 }
 
-.works-lang li {
-  border: 0.05rem solid;
-  padding: 0.5rem;
-  font-size: 3rem;
-  margin-right: auto;
-}
-
-.works-list li {
-  background-color: rgba(255, 255, 255, 0.24);
-  border: #e5e5e500;
-}
-
 .flex-button {
   background-color: #e5e5e5;
 }
@@ -211,6 +216,18 @@ img {
   font-weight: bold;
   border-width: 0.1rem;
   font-size: 2rem;
+}
+
+.main-projects h3,
+.main-projects p,
+.main-projects .lang-box {
+  order: 0;
+  padding: 1rem 2rem;
+}
+
+#about-me p {
+  color: #fff;
+  margin: 1rem 0 0 0;
 }
 
 #flex-projects div p {
@@ -248,20 +265,8 @@ img {
   color: #fff;
 }
 
-.main-projects h3,
-.main-projects p,
-.main-projects .lang-box {
-  order: 0;
-  padding: 1rem 2rem;
-}
-
 .main-projects h3 {
   padding-top: 5rem;
-}
-
-.main-projects a {
-  order: 0;
-  padding: 0.5rem;
 }
 
 #last-item {
@@ -295,18 +300,10 @@ hr {
   padding: 2rem;
   background-color: #1c1a19;
   border-bottom: 0;
-}
-
-#about-me {
   background-image: url("./images/about me.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 40% 40%;
-}
-
-#about-me p {
-  color: #fff;
-  margin: 1rem 0 0 0;
 }
 
 #last-list {
@@ -323,7 +320,7 @@ hr {
 }
 
 #about-me-lang div div {
-  padding: 1rem 0rem;
+  padding: 1rem 0;
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -333,6 +330,13 @@ hr {
 
 #about-me-lang div div img {
   order: 1;
+}
+
+#form h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #172b4d;
 }
 
 #about-me-lang div div h2 {
@@ -357,13 +361,6 @@ hr {
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
   margin: 1rem;
-}
-
-#form h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  padding-bottom: 2rem;
-  color: #172b4d;
 }
 
 #contact-form {
@@ -435,6 +432,7 @@ hr {
   #hidden-img {
     display: none;
   }
+
   /* Headline */
   .headline {
     flex-direction: inherit;
