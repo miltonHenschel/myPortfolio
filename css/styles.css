@@ -17,10 +17,8 @@ body {
 }
 
 /* Header */
-.nav,
-.social-media {
+.nav {
   display: flex;
-  order: 0;
   justify-content: space-between;
   background: #3c3a39;
   padding: 0 2rem;
@@ -46,6 +44,10 @@ a:visited {
   list-style-type: none;
 }
 
+#headline-social-media {
+  padding: 1rem 0 0;
+}
+
 .main-projects a {
   order: 0;
   padding: 0.5rem;
@@ -56,10 +58,8 @@ a:visited {
 }
 
 .works-lang li {
-  border: 0.05rem solid;
+  border: 1px solid #8993a4;
   padding: 0.5rem;
-  font-size: 3rem;
-  margin-right: auto;
 }
 
 .works-list li {
@@ -129,7 +129,10 @@ a:visited {
   list-style-type: none;
   background: none;
   gap: 1em;
-  padding: 1rem 0 0 0;
+  display: flex;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 img {
@@ -139,14 +142,16 @@ img {
 
 /* Projects */
 #projects {
-  display: grid;
   border: 0;
   padding: 0 1.5rem;
   background: #e5e5e5;
 }
 
-#projects-title {
+#projects-section-1 {
   padding: 10rem 0 5rem;
+}
+
+#projects-title {
   font-size: 2.5rem;
   font-weight: 400;
   font-family: 'Crete Round', sans-serif;
@@ -169,33 +174,32 @@ img {
 #flex-projects {
   display: flex;
   flex-direction: column;
-  text-align: left;
-  padding: 3rem;
 }
 
 #flex-projects div img {
-  padding: 5rem 0;
   width: 100%;
   height: auto;
 }
 
 #flex-projects h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
+  font-family: 'Crete Round';
+  font-weight: 400;
 }
 
 #works-hr {
-  margin: auto;
-  width: 85%;
+  width: 100%;
   border: 1px solid #212121;
+  margin-top: 2rem;
 }
 
 .center-img {
-  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .lang-box {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .lang-box span {
@@ -249,7 +253,9 @@ img {
 }
 
 #flex-projects div p {
-  font-size: 2rem;
+  font-size: 1rem;
+  font-family: 'Inter';
+  font-weight: 400;
 }
 
 .link-project {
@@ -309,10 +315,6 @@ img {
 .button:hover {
   background-color: #fff;
   color: #f55a00;
-}
-
-hr {
-  margin-bottom: 5rem;
 }
 
 #about-me {
