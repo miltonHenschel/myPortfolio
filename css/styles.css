@@ -192,7 +192,7 @@ img {
 #flex-projects h2 {
   font-size: 2rem;
   padding-bottom: 1rem;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
 }
 
@@ -252,7 +252,7 @@ img {
 
 .project-heading {
   font-size: 2rem;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   color: #fff;
   font-weight: 400;
 }
@@ -349,13 +349,13 @@ img {
   text-align: center;
   padding: 0 2rem 2rem;
   color: #172b4d;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 700;
 }
 
 #about-me-lang div div h2 {
   order: 2;
-  font-family: "InaiMathi";
+  font-family: "InaiMathi", sans-serif;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -371,7 +371,7 @@ img {
   font-weight: 400;
   font-size: 1.375rem;
   padding: 1rem 0;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
 }
 
 /* Form */
