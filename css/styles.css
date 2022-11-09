@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @font-face {
   font-family: 'InaiMathi';
   src: url("../fonts/InaiMathi.ttf");
 }
-/* 'Inter', 'Crete Round', 'Roboto', 'Poppins'; */
 
 * {
   box-sizing: border-box;
@@ -70,6 +70,15 @@ a:visited {
   border: #e5e5e500;
 }
 
+.project-social-media li {
+  border: 1px solid #fff;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.625rem;
+}
+
 #menu li {
   display: inline;
 }
@@ -97,8 +106,8 @@ a:visited {
   padding-top: 7.5rem;
 }
 
-#headline h1,
-.works-item h1 {
+.works-item h1,
+#headline h1 {
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -137,15 +146,6 @@ a:visited {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-}
-
-.project-social-media li {
-  border: 1px solid #fff;
-  font-weight: 500;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  background: rgba(255, 255, 255, 0.25);
-  padding: 0.625rem;
 }
 
 img {
@@ -192,7 +192,7 @@ img {
 #flex-projects h2 {
   font-size: 2rem;
   padding-bottom: 1rem;
-  font-family: 'Crete Round';
+  font-family: "Crete Round";
   font-weight: 400;
 }
 
@@ -224,7 +224,7 @@ img {
   color: #ff6b00;
   font-size: 4.5rem;
   font-weight: 400;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   margin-top: 7.5rem;
 }
 
@@ -349,7 +349,7 @@ img {
   text-align: center;
   padding: 0 2rem 2rem;
   color: #172b4d;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
 }
 
