@@ -2,7 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@font-face {
+  font-family: 'InaiMathi';
+  src: url("../fonts/InaiMathi.ttf");
+}
 /* 'Inter', 'Crete Round', 'Roboto', 'Poppins'; */
 
 * {
@@ -125,14 +128,24 @@ a:visited {
   font-size: 1rem;
 }
 
-.social-media {
+.social-media,
+.project-social-media {
   list-style-type: none;
   background: none;
   gap: 1em;
   display: flex;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1rem;
+}
+
+.project-social-media li {
+  border: 1px solid #fff;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.625rem;
 }
 
 img {
@@ -144,7 +157,8 @@ img {
 #projects {
   border: 0;
   padding: 0 1.5rem;
-  background: #e5e5e5;
+  background: center;
+  margin-bottom: 8rem;
 }
 
 #projects-section-1 {
@@ -154,12 +168,6 @@ img {
 #projects-title {
   font-size: 2.5rem;
   font-weight: 400;
-  font-family: 'Crete Round', sans-serif;
-}
-
-#about-me h1 {
-  color: #f55a00;
-  font-size: 4rem;
   font-family: 'Crete Round', sans-serif;
 }
 
@@ -212,87 +220,69 @@ img {
   color: #fff;
 }
 
-.flex-button {
-  padding: 1.5rem;
-  background-color: #f55a00;
-  color: #fff;
-  font-weight: bold;
-  border-width: 0.1rem;
-  font-size: 2rem;
+#about-me h1 {
+  color: #ff6b00;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-family: 'Crete Round', sans-serif;
+  margin-top: 7.5rem;
 }
 
 #about-me button {
   padding: 1rem;
-  margin: 2rem 0 5rem 0;
-  background: #f55a00;
+  margin: 2rem 0 12rem 0;
+}
+
+.flex-button,
+.project-button {
+  padding: 0.75rem;
+  background-color: #ff6b00;
   color: #fff;
-  border-width: 0.1rem;
+  font-weight: 700;
+  border: 1px solid #ff6b00;
   font-size: 1rem;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.05em;
 }
 
-#flex-projects div button {
-  padding: 1.5rem;
-  background-color: #f55a00;
-  color: #fff;
-  font-weight: bold;
-  border-width: 0.1rem;
+.flex-button {
+  width: inherit;
+  margin-left: -1rem;
+}
+
+.project-heading {
   font-size: 2rem;
-}
-
-.main-projects h3,
-.main-projects p,
-.main-projects .lang-box {
-  order: 0;
-  padding: 1rem 2rem;
-}
-
-#about-me p {
+  font-family: 'Crete Round';
   color: #fff;
-  margin: 1rem 0 0 0;
+  font-weight: 400;
+}
+
+.project-par {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding-top: 0.75rem;
+}
+
+#about-me-div p {
+  margin-top: 1.5rem;
+  color: #f4f5f7;
+  font-family: "Inter", sans-serif;
 }
 
 #flex-projects div p {
   font-size: 1rem;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
-.link-project {
-  font-size: 4rem;
-}
-
-.demo-wrap::before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  background-image: url('../images/Placeholder.png');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}
-
-.demo-content,
-.demo-wrap {
-  position: relative;
-  margin: 2rem;
-}
-
-.main-projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  margin: 0;
-}
-
-.main-projects h3 {
-  padding-top: 5rem;
+.project-detail {
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/Placeholder.png);
+  width: 20.4375rem;
+  height: 24.125rem;
+  padding: 8rem 1rem 0;
+  margin: 2rem 0;
 }
 
 #last-item {
@@ -317,15 +307,12 @@ img {
   color: #f55a00;
 }
 
-#about-me {
-  text-align: left;
-  padding: 2rem;
+#about-me-div {
   background-color: #1c1a19;
-  border-bottom: 0;
-  background-image: url("./images/about me.png");
+  background-image: url("../images/about me.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 40% 40%;
+  background-position: 100% 90%;
+  padding: 1.5rem;
 }
 
 #last-list {
@@ -335,6 +322,9 @@ img {
 /* Languages */
 #about-me-lang {
   color: #fff;
+  background-color: #1c1a19;
+  margin-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 
 #about-me-lang div {
@@ -355,14 +345,19 @@ img {
 }
 
 #form h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 0 2rem 2rem;
   color: #172b4d;
+  font-family: 'Inter';
+  font-weight: 700;
 }
 
 #about-me-lang div div h2 {
   order: 2;
+  font-family: "InaiMathi";
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 #about-me-lang div ul {
@@ -373,12 +368,14 @@ img {
 }
 
 #about-me-lang div ul li {
-  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 1.375rem;
+  padding: 1rem 0;
+  font-family: 'Inter';
 }
 
 /* Form */
 #form {
-  padding: 2rem;
   font-weight: 900;
   font-family: 'Crimson Pro', sans-serif;
   border: 0;
@@ -386,7 +383,6 @@ img {
 }
 
 #contact-form {
-  padding: 1rem;
   text-align: left;
   border: 0;
   display: flex;
@@ -412,7 +408,7 @@ img {
 
 #message {
   border: 0;
-  height: 15vh;
+  height: 7.125rem;
   width: 100%;
   background-color: #e5e5e5;
   padding: 1rem;
@@ -420,19 +416,12 @@ img {
 }
 
 #form-button {
-  height: 5%;
-  width: 50%;
   margin: auto;
-  font-size: 1rem;
-  font-weight: 900;
-  padding: 0.5rem;
 }
 
 #contact-social-form {
-  padding-bottom: 2rem;
-  border-bottom: 0.5rem solid;
-  width: 20%;
-  margin: auto;
+  padding-bottom: 1rem;
+  margin: 0 7rem;
 }
 
 .form-social-media {
@@ -442,7 +431,13 @@ img {
 }
 
 #social-media-footer {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+}
+
+#social-media-footer hr {
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid;
 }
 
 @media (min-width: 768px) {
