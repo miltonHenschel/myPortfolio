@@ -512,7 +512,8 @@ img {
 
   /* Projects */
   #works-hr {
-    width: 50%;
+    width: 65%;
+    margin: auto;
   }
 
   #projects-title {
@@ -521,43 +522,42 @@ img {
   }
 
   #flex-projects {
-    display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    width: 70%;
   }
 
   #projects-section-1 {
-    order: 1;
+    order: 0;
     width: 100%;
     display: flex;
-    margin-bottom: -6rem;
+    padding: 0;
   }
 
   #projects-section-2 {
-    order: 2;
-    width: 30%;
+    padding-left: 2rem;
   }
 
   #projects-section-1 div {
-    margin-left: 1rem;
+    display: flex;
   }
 
   #projects {
     display: flex;
+    flex-direction: column;
+    padding: 0rem 8.8125rem 8.8125rem;
   }
 
   #flex-projects h2 {
-    font-size: 1.5rem;
-    padding-top: 1rem;
+    font-size: 2.5rem;
+    padding: 0 0 1rem;
   }
 
   #flex-projects div p {
     font-size: 1.25rem;
+    padding: 1.5rem 0;
   }
 
   .lang-box {
-    padding: 1rem 0;
+    padding-bottom: 2rem;
     display: flex;
   }
 
@@ -568,7 +568,12 @@ img {
   }
 
   .center-img {
-    margin: -4rem 2rem 0 0;
+    margin: 0;
+  }
+
+  #flex-projects div img {
+    width: 42.75rem;
+    height: 28rem;
   }
 
   #flex-projects div button {
