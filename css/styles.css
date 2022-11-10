@@ -397,6 +397,7 @@ img {
   border: 0;
   display: flex;
   flex-direction: column;
+  padding: 0 1rem;
 }
 
 #email,
@@ -679,20 +680,9 @@ img {
     width: auto;
   }
 
-  #email {
-    width: 100%;
-    padding: 2rem;
-  }
-
+  #email,
   #name {
     width: 100%;
-    display: inline;
-    padding: 2rem;
-    margin-right: 1rem;
-  }
-
-  #message {
-    padding: 2rem;
   }
 
   .hidden-img,
@@ -707,8 +697,8 @@ img {
     grid-template-columns: 33% 33% 33%;
   }
 
-  #last-item {
-    margin-bottom: 2rem;
+  #message {
+    margin-bottom: 1.5rem;
   }
 
   /* Contact Social Media */
