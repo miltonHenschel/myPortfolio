@@ -87,6 +87,10 @@ a:visited {
   display: none;
 }
 
+.unhidden-img {
+  display: unset;
+}
+
 /* Headline */
 #headline {
   display: flex;
@@ -169,6 +173,7 @@ img {
   font-size: 2.5rem;
   font-weight: 400;
   font-family: 'Crete Round', sans-serif;
+  text-align: center;
 }
 
 #projects h1 {
@@ -446,7 +451,7 @@ img {
     display: inline;
   }
 
-  #hidden-img {
+  .hidden-img {
     display: none;
   }
 
@@ -454,23 +459,34 @@ img {
   #headline {
     flex-direction: inherit;
     align-items: center;
-    height: 40rem;
-    background-image: none;
+    background-image: url("../images/desktop-header.png");
+    background-repeat: no-repeat;
+    background-position: right;
   }
 
   #headline div {
     order: 2;
-    width: 49%;
+    width: 35.375rem;
+    padding-top: 0;
+  }
+
+  #headline h1 {
+    font-size: 4.5rem;
   }
 
   #headline h2 {
-    padding: 1rem 0;
+    font-size: 2rem;
+  }
+
+  #headline p {
+    font-size: 1.25rem;
   }
 
   #headline-social-media {
     order: 1;
-    width: 9%;
+    width: 10%;
     display: block;
+    padding: 0;
   }
 
   .social-media {
@@ -566,11 +582,42 @@ img {
     align-items: normal;
   }
 
+  #about-me-div {
+    background-image: url(../images/desktop-about-me.png);
+    background-position: right;
+    padding: 1rem 0rem 0 8.875rem;
+  }
+
+  #about-me-div p,
+  #about-me h1 {
+    width: 35.375rem;
+  }
+
+  #about-me-div p {
+    font-size: 1.25rem;
+  }
+
+  #about-me button {
+    margin: 2rem 0 8rem 0;
+  }
+
+  #about-me-div hr {
+    width: 85%;
+}
+
   /* Languages */
   #about-me-lang {
     display: flex;
-    gap: 2rem;
-    justify-content: space-evenly;
+    gap: 15rem;
+    padding: 0 8.875rem 10rem;
+  }
+
+  #about-me-lang div {
+    margin-top: 5rem;
+  }
+
+  #about-me-lang div ul {
+    align-items: flex-start;
   }
 
   /* Form */
@@ -581,7 +628,9 @@ img {
 
   #form h2 {
     text-align: left;
-    width: 39%;
+    padding-left: 8.4375rem;
+    font-size: 2.5rem;
+    width: 28.4375rem;
   }
 
   #contact-form {
@@ -594,10 +643,20 @@ img {
     width: auto;
   }
 
+  #email {
+    width: 100%;
+    padding: 2rem;
+  }
+
   #firstname,
   #lastname {
     width: 48%;
     display: inline;
+    padding: 2rem;
+  }
+
+  #message {
+    padding: 2rem;
   }
 
   #firstname {
@@ -625,5 +684,17 @@ img {
 
   #last-item {
     margin-bottom: 2rem;
+  }
+
+  /* Social-media-footer */
+  #social-media-footer hr {
+    display: none;
+  }
+
+  /* Contact Social Media */
+  #contact-social-form {
+    display: flex;
+    justify-content: center;
+    width: unset;
   }
 }
