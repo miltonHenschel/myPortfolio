@@ -38,15 +38,6 @@ a:visited {
   text-decoration: none;
 }
 
-.nav a,
-#menu {
-  align-self: center;
-  text-decoration: none;
-  color: #fff;
-  margin: 1rem 0;
-  list-style-type: none;
-}
-
 .main-projects a {
   order: 0;
   padding: 0.5rem;
