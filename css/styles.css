@@ -38,6 +38,11 @@ a:visited {
   text-decoration: none;
 }
 
+.nav a:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+
 .nav a,
 #menu {
   align-self: center;
@@ -81,6 +86,12 @@ a:visited {
 
 #menu li {
   display: inline;
+}
+
+#menu li:hover {
+  background-color: #ff6b00;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .hidden-nav {
@@ -488,6 +499,11 @@ img {
     width: 10%;
     display: block;
     padding: 0;
+  }
+
+  #headline-social-media li:hover,
+  #contact-social-form {
+    transform: scale(1.5);
   }
 
   .social-media {
