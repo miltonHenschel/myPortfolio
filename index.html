@@ -12,46 +12,66 @@
   <!-- NAVBAR -->
   <header class="nav">
     <a href="">Henschel</a>
-    <nav><a href=""><img src="images/more.png" alt="More" width="55" height="55" /></a></nav>
+    <nav>
+      <ul id="menu">
+        <li>
+          <a class="hidden-nav" href="#projects">Portfolio</a>
+        </li>
+        <li>
+          <a class="hidden-nav" href="#about-me">About</a>
+        </li>
+        <li>
+          <a class="hidden-nav" href="#form">Contact</a>
+        </li>
+        <li>
+          <a href="mailto:nketchoguemilton@gmail.com?&subject=Mail from our Website&body=I want to buy you a coffee"><img class="hidden-nav" src="images/mail.png" width="55" height="55" alt="mail"></a>
+        </li>
+        <li>
+          <img class="hidden-img" src="images/more.png" alt="More" width="55" height="55">
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <!-- HEADLINE -->
-  <section class="headline">
-      <h1>Hey there! <br /> I’m Henschel.</h1>
-
+  <section id="headline">
+    <div>
+      <h1>Hey there! <br /> I’m Milton.</h1>
       <h2>I’am a Software Developer.</h2>
-
       <p>I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+    </div>
 
-      <ul class="social-media">
-        <li><a href="https://github.com/miltonHenschel"><img src="images/github.svg" alt="GitHub" width="55" height="55" /></a></li>
-        <li><a href="https://linkedin.com/in/henschelnketchoguem"><img src="images/linkedin.svg" alt="LinkedIn" width="25" height="55" /></a></li>
-        <li><a href="https://www.angellist.com/"><img src="images/angellist.svg" alt="Angellist" width="55" height="55" /></a></li>
-        <li><a href="https://twitter.com/nketchogue"><img src="images/twitter.svg" alt="Twitter" width="55" height="55" /></a></li>
-        <li><a href="https://medium.com/@nketchoguemilton"><img src="images/medium.svg" alt="Medium" width="55" height="55" /></a></li>
-      </ul>
-    </section>
+    <ul class="social-media" id="headline-social-media">
+      <li><a href="https://github.com/miltonHenschel"><img src="images/github.svg" alt="GitHub" width="55" height="55" /></a></li>
+      <li><a href="https://linkedin.com/in/henschelnketchoguem"><img src="images/linkedin.svg" alt="LinkedIn" width="25" height="55" /></a></li>
+      <li><a href="https://www.angellist.com/"><img src="images/angellist.svg" alt="Angellist" width="55" height="55" /></a></li>
+      <li><a href="https://twitter.com/nketchogue"><img src="images/twitter.svg" alt="Twitter" width="55" height="55" /></a></li>
+      <li><a href="https://medium.com/@nketchoguemilton"><img src="images/medium.svg" alt="Medium" width="55" height="55" /></a></li>
+    </ul>
+  </section>
 
     <!-- PROJECTS -->
   <section id="projects">
-    <div>
-      <h2 class="projects-title">My Recent Works</h2>
+    <div id="projects-section-1">
+      <div>
+        <h2 id="projects-title">My Recent Works</h2>
+      </div>
+      <hr id="works-hr" />
     </div>
 
     <div>
       <div id="flex-projects">
-        <div>
+        <div class="center-img">
           <img src="./images/gymfit.png" alt="gymfit" />
         </div>
 
-        <div>
+        <div id="projects-section-2">
           <h2>Multi-Post Stories</h2>
 
           <p>A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a standard
-            dummy text. A daily selection of privately personalized reads; no
-            accounts or sign-ups required.</p>
+            dummy text.</p>
 
           <div class="lang-box">
             <ul class="social-media works-lang">
@@ -61,115 +81,98 @@
               <li>ruby</li>
             </ul>
           </div>
-
-          <a href="#link-project"><button>See Project</button></a>
+          <a href="#link-project"><button class="project-button">See Project</button></a>
         </div>
+      </div>
 
-        <div class="demo-wrap">
-          <div class="main-projects  demo-content">
-            <h3 id="link-project">Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+      <div id="projects-section-3">
+        <div>
+          <div id="project-1">
+            <h3 class="project-heading hidden-obj">Professional Art<br />Printing Data</h3>
+            <p class="project-par hidden-obj">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box hidden-obj">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button id="project-1-button">See Project</button></a>
           </div>
         </div>
 
-        <div class="demo-wrap">
-          <div class="main-projects  demo-content">
-            <h3>Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+        <div>
+          <div class="project-2">
+            <h3 class="project-heading">Professional Art<br />Printing Data</h3>
+            <p class="project-par">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button class="flex-button">See Project</button></a>
           </div>
         </div>
 
-        <div class="demo-wrap">
-          <div class="main-projects  demo-content">
-            <h3>Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+        <div>
+          <div class="project-3">
+            <h3 class="project-heading">Professional Art<br />Printing Data</h3>
+            <p class="project-par">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button class="flex-button">See Project</button></a>
           </div>
         </div>
 
-        <div class="demo-wrap">
-          <div class="main-projects  demo-content">
-            <h3>Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+        <div>
+          <div id="project-4">
+            <h3 class="project-heading">Professional Art<br />Printing Data</h3>
+            <p class="project-par">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button class="flex-button">See Project</button></a>
           </div>
         </div>
 
-        <div class="demo-wrap">
-          <div class="main-projects  demo-content">
-            <h3>Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+        <div>
+          <div class="project-2">
+            <h3 class="project-heading">Professional Art<br />Printing Data</h3>
+            <p class="project-par">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button class="flex-button">See Project</button></a>
           </div>
         </div>
 
-        <div class="demo-wrap" id="last-item">
-          <div class="main-projects demo-content">
-            <h3>Professional Art<br />Printing Data</h3>
-
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-
-            <div class="lang-box" id="lang-box">
-              <ul class="social-media works-lang works-list">
+        <div>
+          <div class="project-3">
+            <h3 class="project-heading">Professional Art<br />Printing Data</h3>
+            <p class="project-par">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <div class="lang-box">
+              <ul class="project-social-media">
                 <li>html</li>
                 <li>bootstrap</li>
                 <li>ruby</li>
               </ul>
             </div>
-
-            <a href=""></a><button class="flex-button">See Project</button></a>
+            <a href="#"></a><button class="flex-button">See Project</button></a>
           </div>
         </div>
       </div>
@@ -177,55 +180,58 @@
   </section>
 
   <!-- FOOTER -->
-    <section id='about' class="about-me">
-      <h1>About me</h1>
+    <section id="about-me">
+      <div id="about-me-div">
+        <h1>About me</h1>
 
-      <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
 
-      <a href="https://drive.google.com/file/d/1D3v3WMohFK-9VfpdwMAeVZudj8reqxcA/view?usp=sharing"></a><button class="button">Get My Resume</button></a>
-      <hr />
-      <ul>
-        <li class="no-style">
-          <ul class="list-style" id="diamond">
-            <li>Languages</li>
-          </ul>
+        <a href="https://drive.google.com/file/d/1D3v3WMohFK-9VfpdwMAeVZudj8reqxcA/view?usp=sharing"></a><button class="project-button">Get My Resume</button></a>
+        <hr />
+      </div>
 
-          <ul class="no-style">
+      <section id="about-me-lang">
+        <div>
+          <div>
+            <img src="./images/diamond.png" alt="diamond" />
+            <h2>Languages</h2>
+          </div>
+          <ul>
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Ruby</li>
           </ul>
-        </li>
+        </div>
 
-        <li class="no-style">
-          <ul class="list-style" id="square">
-            <li>Frameworks</li>
-          </ul>
-
-          <ul class="no-style">
+        <div>
+          <div>
+            <img src="./images/square.png" alt="square" />
+            <h2>Frameworks</h2>
+          </div>
+          <ul>
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
             <li>RSPec</li>
             <li>CapyBara</li>
             <li>Selenium</li>
           </ul>
-        </li>
+        </div>
 
-        <li class="no-style">
-          <ul class="list-style" id="disc">
-            <li>Skills</li>
-          </ul>
-
-          <ul class="no-style">
+        <div>
+          <div>
+            <img src="./images/rectangle.png" alt="square" />
+            <h2>Skills</h2>
+          </div>
+          <ul>
             <li>Codekit</li>
             <li>Github</li>
             <li>Codepen</li>
             <li>Gitlab</li>
             <li id="last-list">Terminal</li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </section>
     </section>
 
     <!-- FOOTER  -->
@@ -239,20 +245,22 @@
 
         <textarea name="message" id="message" maxlength="500" placeholder="Write a message" required></textarea>
 
-        <button id="form-button" class="button" type="submit">Get in touch</button>
-
-        <ul class="social-media" id="contact-social-form">
-          <li class="form-social-media"><a href="https://github.com/miltonHenschel"><img src="images/github.png" alt="GitHub" width="55" height="55" /></a></li>
-
-          <li class="form-social-media"><a href="https://linkedin.com/in/henschelnketchoguem"><img src="images/linkedin.png" alt="LinkedIn" width="25" height="55" /></a></li>
-
-          <li class="form-social-media"><a href="https://www.angellist.com/"><img src="images/angellist.png" alt="Angellist" width="55" height="55" /></a></li>
-
-          <li class="form-social-media"><a href="https://twitter.com/nketchogue"><img src="images/twitter.png" alt="Twitter" width="55" height="55" /></a></li>
-
-          <li class="form-social-media"><a href="https://medium.com/@nketchoguemilton"><img src="images/medium.png" alt="Medium" width="55" height="55" /></a></li>
-        </ul>
+        <button id="form-button" class="project-button" type="submit">Get in touch</button>
       </form>
     </footer>
+    <section id="social-media-footer">
+      <ul class="social-media" id="contact-social-form">
+        <li class="form-social-media"><a href="https://github.com/miltonHenschel"><img src="images/github.png" alt="GitHub" width="55" height="55" /></a></li>
+
+        <li class="form-social-media"><a href="https://linkedin.com/in/henschelnketchoguem"><img src="images/linkedin.png" alt="LinkedIn" width="25" height="55" /></a></li>
+
+        <li class="form-social-media"><a href="https://www.angellist.com/"><img src="images/angellist.png" alt="Angellist" width="55" height="55" /></a></li>
+
+        <li class="form-social-media"><a href="https://twitter.com/nketchogue"><img src="images/twitter.png" alt="Twitter" width="55" height="55" /></a></li>
+
+        <li class="form-social-media"><a href="https://medium.com/@nketchoguemilton"><img src="images/medium.png" alt="Medium" width="55" height="55" /></a></li>
+      </ul>
+      <hr />
+    </section>
 </body>
 </html>
