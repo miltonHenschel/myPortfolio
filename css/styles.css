@@ -38,6 +38,10 @@ a:visited {
   text-decoration: none;
 }
 
+.nav nav a {
+  padding-right: 0.5rem;
+}
+
 .nav a:hover {
   transform: rotate(360deg);
   transition-duration: 2s;
@@ -61,10 +65,6 @@ a:visited {
   padding: 0.5rem;
 }
 
-.nav nav a {
-  padding-right: 0.5rem;
-}
-
 .works-lang li {
   border: 1px solid #8993a4;
   padding: 0.5rem;
@@ -86,6 +86,13 @@ a:visited {
 
 #menu li {
   display: inline;
+}
+
+#about-me-lang div ul li {
+  font-weight: 400;
+  font-size: 1.375rem;
+  padding: 1rem 0;
+  font-family: "Inter", sans-serif;
 }
 
 #menu li:hover {
@@ -388,13 +395,6 @@ img {
   align-items: center;
 }
 
-#about-me-lang div ul li {
-  font-weight: 400;
-  font-size: 1.375rem;
-  padding: 1rem 0;
-  font-family: "Inter", sans-serif;
-}
-
 /* Form */
 #form {
   font-weight: 900;
@@ -501,6 +501,16 @@ img {
     padding: 0;
   }
 
+  .social-media li {
+    padding: 0.5rem;
+  }
+
+  .works-lang li {
+    border: 0.05rem solid;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+  }
+
   #headline-social-media li:hover,
   #contact-social-form li:hover {
     transform: scale(1.5);
@@ -511,10 +521,6 @@ img {
     background: none;
     gap: 1em;
     padding: 0;
-  }
-
-  .social-media li {
-    padding: 0.5rem;
   }
 
   .social-media li a {
@@ -570,7 +576,7 @@ img {
   #project-1-button:hover,
   .project-button:hover {
     background-color: #fff;
-    color:#ff6b00;
+    color: #ff6b00;
   }
 
   #flex-projects h2 {
@@ -595,12 +601,6 @@ img {
   .lang-box {
     padding-bottom: 2rem;
     display: flex;
-  }
-
-  .works-lang li {
-    border: 0.05rem solid;
-    padding: 0.5rem 0.5rem;
-    font-size: 1rem;
   }
 
   .center-img {
