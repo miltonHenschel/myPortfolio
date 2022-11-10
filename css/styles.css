@@ -83,9 +83,7 @@ a:visited {
   display: inline;
 }
 
-.hidden-nav,
-#firstname,
-#lastname {
+.hidden-nav {
   display: none;
 }
 
@@ -402,9 +400,7 @@ img {
 }
 
 #email,
-#name,
-#firstname,
-#lastname {
+#name {
   margin-bottom: 2rem;
   padding: 1rem;
   border: 0;
@@ -453,6 +449,10 @@ img {
   /* Head */
   .hidden-nav {
     display: inline;
+  }
+
+  .nav {
+    padding: 0 10rem;
   }
 
   /* Headline */
@@ -684,23 +684,18 @@ img {
     padding: 2rem;
   }
 
-  #firstname,
-  #lastname {
-    width: 48%;
+  #name {
+    width: 100%;
     display: inline;
     padding: 2rem;
+    margin-right: 1rem;
   }
 
   #message {
     padding: 2rem;
   }
 
-  #firstname {
-    margin-right: 1rem;
-  }
-
   .hidden-img,
-  #name,
   .flex-button,
   #social-media-footer hr,
   .hidden-obj {
