@@ -43,10 +43,6 @@ a:visited {
   padding: 0.5rem;
 }
 
-.nav nav a {
-  padding-right: 0.5rem;
-}
-
 .nav a,
 #menu {
   align-self: center;
@@ -54,6 +50,10 @@ a:visited {
   color: #fff;
   margin: 1rem 0;
   list-style-type: none;
+}
+
+.nav nav a {
+  padding-right: 0.5rem;
 }
 
 .nav a:hover {
