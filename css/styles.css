@@ -502,7 +502,7 @@ img {
   }
 
   #headline-social-media li:hover,
-  #contact-social-form {
+  #contact-social-form li:hover {
     transform: scale(1.5);
   }
 
@@ -565,6 +565,12 @@ img {
 
   #project-1-button {
     margin: 0 -1rem;
+  }
+
+  #project-1-button:hover,
+  .project-button:hover {
+    background-color: #fff;
+    color:#ff6b00;
   }
 
   #flex-projects h2 {
