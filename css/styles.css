@@ -38,13 +38,22 @@ a:visited {
   text-decoration: none;
 }
 
-.nav nav a {
-  padding-right: 0.5rem;
+.nav a,
+#menu {
+  align-self: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 1rem 0;
+  list-style-type: none;
 }
 
-.nav a:hover {
-  transform: rotate(360deg);
-  transition-duration: 2s;
+.main-projects a {
+  order: 0;
+  padding: 0.5rem;
+}
+
+.nav nav a {
+  padding-right: 0.5rem;
 }
 
 .nav a,
@@ -56,13 +65,13 @@ a:visited {
   list-style-type: none;
 }
 
-#headline-social-media {
-  padding: 1rem 0 0;
+.nav a:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
-.main-projects a {
-  order: 0;
-  padding: 0.5rem;
+#headline-social-media {
+  padding: 1rem 0 0;
 }
 
 .works-lang li {
