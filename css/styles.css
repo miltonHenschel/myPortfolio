@@ -56,11 +56,6 @@ a:visited {
   padding-right: 0.5rem;
 }
 
-.nav a:hover {
-  transform: rotate(360deg);
-  transition-duration: 2s;
-}
-
 #headline-social-media {
   padding: 1rem 0 0;
 }
@@ -68,6 +63,21 @@ a:visited {
 .works-lang li {
   border: 1px solid #8993a4;
   padding: 0.5rem;
+}
+
+#headline-social-media li:hover,
+#contact-social-form li:hover {
+  transform: scale(1.5);
+  padding: 1rem;
+}
+
+#project-1:hover,
+.project-2:hover,
+.project-3:hover,
+#project-4:hover,
+#about-me-lang div ul li:hover,
+#about-me-lang div div img:hover {
+  transform: scale(1.15);
 }
 
 .works-list li {
@@ -95,10 +105,27 @@ a:visited {
   font-family: "Inter", sans-serif;
 }
 
-#menu li:hover {
-  background-color: #ff6b00;
-  color: #fff;
-  opacity: 0.8;
+/* .nav a:hover {
+  transform: rotate(360deg) scale(1.5);
+  transition-duration: 2s;
+} */
+
+#menu:hover li {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+#menu li:hover{
+  opacity: 1;
+  filter:blur(0px);
+}
+
+#nav-first-a {
+  animation: spacing 2s ease-in forwards infinite;
+}
+
+#nav-first-a:hover {
+  animation-play-state: paused;
 }
 
 .hidden-nav {
@@ -138,6 +165,37 @@ a:visited {
   font-weight: 400;
   font-size: 3.5rem;
   text-align: left;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spacing {
+  0% {
+      letter-spacing: -15px;
+  }
+
+  20% {
+      letter-spacing: 10px;
+  }
+
+  100% {
+      letter-spacing: 2px;
+  }
+}
+
+#headline h1:hover,
+#about-me-div h1:hover {
+  animation: blink 1s linear infinite;
 }
 
 #headline h2 {
@@ -275,6 +333,12 @@ img {
   margin-left: -1rem;
 }
 
+#project-1-button:hover,
+.project-button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+}
+
 .project-heading {
   font-size: 2rem;
   font-family: 'Crete Round', sans-serif;
@@ -330,7 +394,8 @@ img {
   transition-duration: 0.4s;
 }
 
-.button:hover {
+.button:hover,
+.flex-button:hover {
   background-color: #fff;
   color: #f55a00;
 }
@@ -430,6 +495,13 @@ img {
   margin-bottom: 2.5rem;
 }
 
+#name:hover,
+#email:hover,
+#message:hover {
+  border: 1px solid #ff6b00;
+  border-radius: 8px;
+}
+
 #form-button {
   margin: auto;
 }
@@ -511,11 +583,6 @@ img {
     font-size: 1rem;
   }
 
-  #headline-social-media li:hover,
-  #contact-social-form li:hover {
-    transform: scale(1.5);
-  }
-
   .social-media {
     list-style-type: none;
     background: none;
@@ -571,12 +638,6 @@ img {
 
   #project-1-button {
     margin: 0 -1rem;
-  }
-
-  #project-1-button:hover,
-  .project-button:hover {
-    background-color: #fff;
-    color: #ff6b00;
   }
 
   #flex-projects h2 {
