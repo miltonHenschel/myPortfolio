@@ -98,13 +98,6 @@ a:visited {
   padding: 0.625rem;
 }
 
-#about-me-lang div ul li {
-  font-weight: 400;
-  font-size: 1.375rem;
-  padding: 1rem 0;
-  font-family: "Inter", sans-serif;
-}
-
 .works-lang li {
   border: 1px solid #e5e5e500;
   padding: 0.5rem;
@@ -113,6 +106,13 @@ a:visited {
 
 #menu li {
   display: inline;
+}
+
+#about-me-lang div ul li {
+  font-weight: 400;
+  font-size: 1.375rem;
+  padding: 1rem 0;
+  font-family: "Inter", sans-serif;
 }
 
 #menu:hover li {
@@ -141,7 +141,6 @@ img {
 }
 
 #flex-projects div img {
-  width: 42.75rem;
   height: 28rem;
   width: 100%;
   height: auto;
