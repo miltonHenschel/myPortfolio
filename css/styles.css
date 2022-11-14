@@ -62,7 +62,7 @@ body {
 }
 
 /* Header */
-.nav {
+#nav {
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
@@ -85,7 +85,7 @@ a:visited {
   padding: 0.5rem;
 }
 
-.nav a,
+#nav a,
 #menu {
   align-self: center;
   text-decoration: none;
@@ -94,7 +94,7 @@ a:visited {
   list-style-type: none;
 }
 
-.nav nav a {
+#nav nav a {
   padding-right: 0.5rem;
 }
 
@@ -544,7 +544,7 @@ a:visited {
     width: 1rem;
   }
 
-  .nav {
+  #nav {
     padding: 0 10rem;
   }
 
