@@ -15,32 +15,32 @@
 
 # Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple steps below.
 
-# Prerequisites
+### Prerequisites
 
-- A PC running any operating system like Windows, Linux, or MacOS
-- An Internet connection
-- A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
-- Git installed 
-- Knowledge of some basic Git commands
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
+- [ ] Git installed 
+- [ ] Knowledge of some basic Git commands
 
-# Setup
+### Setup
 
-- Link your PC to GitHub
-- Clone the repository
-- Open the file in your code editor
-- Setup HTML&CSS linters
+- [ ] Link your PC to GitHub
+- [ ] Clone the repository
+- [ ] Open the file in your code editor
+- [ ] Setup HTML&CSS linters
 
-# Install
+### Install
 
-- node_models
-- project dependencies
+- [ ] node_models
+- [ ] project dependencies
 
 <!--
-# Usage
+### Usage
 
-# Run tests
+### Run tests
 -->
 
 # Deployment
@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 # Authors
 
-👤 **NKETCHOGUE MPATCHIE Henschel**
+<p>NKETCHOGUE MPATCHIE Henschel</p>
 
 <p align="left">
 <a href="https://github.com" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="55" height="55" /></a>
@@ -72,10 +72,10 @@ Give a ⭐️ if you like this project!
 
 # Acknowledgments
 
-- ![](https://img.shields.io/badge/Microverse-blueviolet)
-- [Gabriel Cilfone](https://github.com/cilfonegabriel)
-- [Juan Vélez](https://github.com/juandapps)
-- Inspiration
+- [ ] ![](https://img.shields.io/badge/Microverse-blueviolet)
+- [ ] [Gabriel Cilfone](https://github.com/cilfonegabriel)
+- [ ] [Juan Vélez](https://github.com/juandapps)
+- [ ] Inspiration
 
 # 📝 License
 
