@@ -349,17 +349,13 @@ a:visited {
 }
 
 .project-button {
-  width:auto;
+  width: auto;
 }
 
 #project-1-button:hover,
 .project-button:hover {
   background-color: #fff;
   color: #ff6b00;
-}
-
-#project-1-button-hidden {
-  display: none;
 }
 
 .project-heading {
