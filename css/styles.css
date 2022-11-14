@@ -656,6 +656,7 @@ a:visited {
 
   #flex-projects {
     flex-direction: row;
+    margin-bottom: 2rem;
   }
 
   #projects-section-1 {
