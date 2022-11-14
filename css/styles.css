@@ -36,6 +36,20 @@
   }
 }
 
+@keyframes change-color {
+  0% {
+    color: #ff6b00;
+  }
+
+  50% {
+    color: #ff6a0096;
+  }
+
+  100% {
+    color: #ff6a0000;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -141,7 +155,6 @@ img {
 }
 
 #flex-projects div img {
-  height: 28rem;
   width: 100%;
   height: auto;
 }
@@ -423,6 +436,10 @@ img {
   font-family: "InaiMathi", sans-serif;
   font-size: 2rem;
   font-weight: 700;
+}
+
+#about-me-lang div div h2:hover {
+  animation: change-color 1s linear infinite;
 }
 
 #about-me-lang div ul {
