@@ -810,7 +810,8 @@ a:visited {
 
   .hidden-img,
   .flex-button,
-  .hidden-obj {
+  .hidden-obj,
+  #social-media-footer-img {
     display: none;
   }
 
