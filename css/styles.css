@@ -684,7 +684,8 @@ img {
 
   #project-1,
   .project-2,
-  .project-3 {
+  .project-3,
+  #project-4 {
     width: 20.4375rem;
     height: 24.125rem;
     padding: 8rem 1rem 0;
