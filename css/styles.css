@@ -754,7 +754,7 @@ a:focus {
   }
 
   .project-2 {
-    background-image: linear-gradient(179.35deg,rgba(38, 38, 38, 0) 0.85%,rgba(38, 38, 38, 0.9) 84%), url("../images/projects/project-2.png");
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../images/projects/project-2.png");
   }
 
   .project-3 {
@@ -762,7 +762,7 @@ a:focus {
   }
 
   #project-4 {
-    background-image: linear-gradient(179.35deg,rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../images/projects/project-4.png");
+    background-image: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../images/projects/project-4.png");
   }
 
   #project-1:hover,
