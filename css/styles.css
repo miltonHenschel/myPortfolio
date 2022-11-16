@@ -243,11 +243,6 @@ a:visited {
   text-align: left;
 }
 
-#headline h1:hover,
-#about-me-div h2:hover {
-  animation: blink 1s linear infinite;
-}
-
 #headline h2 {
   flex: none;
   order: 2;
@@ -256,6 +251,34 @@ a:visited {
   font-family: 'Roboto', Courier, monospace;
   font-size: 1.5rem;
   padding: 1rem 0;
+}
+
+#flex-projects h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+}
+
+#about-me-lang div div h2 {
+  order: 2;
+  font-family: "InaiMathi", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#form h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem 2rem;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+#headline h1:hover,
+#about-me-div h2:hover {
+  animation: blink 1s linear infinite;
 }
 
 #headline p {
@@ -300,13 +323,6 @@ a:visited {
 #flex-projects {
   display: flex;
   flex-direction: column;
-}
-
-#flex-projects h2 {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-  font-family: "Crete Round", sans-serif;
-  font-weight: 400;
 }
 
 #works-hr {
@@ -455,22 +471,6 @@ a:visited {
   gap: 0.5rem;
 }
 
-#form h2 {
-  font-size: 2rem;
-  text-align: center;
-  padding: 0 2rem 2rem;
-  color: #172b4d;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-}
-
-#about-me-lang div div h2 {
-  order: 2;
-  font-family: "InaiMathi", sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
 #about-me-lang div div h2:hover {
   animation: change-color 1s linear infinite;
 }
@@ -576,7 +576,6 @@ a:visited {
     font-size: 4.5rem;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    /* margin-top: 7.5rem; */
   }
 
   #headline {
@@ -687,10 +686,12 @@ a:visited {
 
   #about-me-div h2 {
     margin-top: 7.5rem;
+    width: 35.375rem;
   }
 
   #about-me-div p {
     font-size: 1.25rem;
+    width: 35.375rem;
   }
 
   #flex-projects div p {
@@ -796,11 +797,6 @@ a:visited {
     background-image: url("../images/about-me/desktop-about-me.png");
     background-position: right;
     padding: 1rem 0 0 8.875rem;
-  }
-
-  #about-me-div h2,
-  #about-me-div p {
-    width: 35.375rem;
   }
 
   #about-me-div hr {
