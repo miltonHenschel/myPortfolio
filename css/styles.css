@@ -576,7 +576,7 @@ a:visited {
     font-size: 4.5rem;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    margin-top: 7.5rem;
+    /* margin-top: 7.5rem; */
   }
 
   #headline {
@@ -685,9 +685,8 @@ a:visited {
     padding: 0 0 1rem;
   }
 
-  #about-me-div p,
-  #about-me h2 {
-    width: 35.375rem;
+  #about-me-div h2 {
+    margin-top: 7.5rem;
   }
 
   #about-me-div p {
@@ -797,6 +796,11 @@ a:visited {
     background-image: url("../images/about-me/desktop-about-me.png");
     background-position: right;
     padding: 1rem 0 0 8.875rem;
+  }
+
+  #about-me-div h2,
+  #about-me-div p {
+    width: 35.375rem;
   }
 
   #about-me-div hr {
