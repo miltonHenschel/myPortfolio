@@ -236,7 +236,7 @@ a:visited {
   flex: none;
   order: 1;
   flex-grow: 0;
-  color: #ff8833;
+  color: #f83;
   font-family: 'Crete Round', Courier, monospace;
   font-weight: 400;
   font-size: 3.5rem;
@@ -358,10 +358,10 @@ a:visited {
 .project-button,
 #project-1-button {
   padding: 0.75rem;
-  background-color: #ff8833;
+  background-color: #f83;
   color: #1c1c1c;
   font-weight: 700;
-  border: 1px solid #ff8833;
+  border: 1px solid #f83;
   font-size: 1rem;
   font-family: "Inter", sans-serif;
   letter-spacing: 0.05em;
@@ -380,7 +380,7 @@ a:visited {
 #project-1-button:hover,
 .project-button:hover {
   background-color: #1c1c1c;
-  color: #ff8833;
+  color: #f83;
   border-color: #1c1c1c;
 }
 
@@ -436,7 +436,7 @@ a:visited {
 .button:hover,
 .flex-button:hover {
   background-color: #1c1c1c;
-  color: #ff8833;
+  color: #f83;
 }
 
 #about-me-div {
@@ -779,7 +779,7 @@ a:visited {
   }
 
   #project-1-button-hidden:hover {
-    color: #ff8833;
+    color: #f83;
     background-color: #1c1c1c;
     border: 1px solid #1c1c1c;
   }
