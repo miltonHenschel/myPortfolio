@@ -76,7 +76,8 @@ a,
 a:link,
 a:active,
 a:hover,
-a:visited a:focus {
+a:visited,
+a:focus {
   text-decoration: none;
 }
 
@@ -198,15 +199,6 @@ a:visited a:focus {
 
 #project-1-button-hidden {
   display: none;
-}
-
-#nav-first-a {
-  animation: spacing 2s ease-in forwards infinite;
-}
-
-#nav-first-a:hover,
-#nav-first-a:focus {
-  animation-play-state: paused;
 }
 
 .hidden-nav {
