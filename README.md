@@ -75,6 +75,7 @@ Give a ⭐️ if you like this project!
 - [ ] ![](https://img.shields.io/badge/Microverse-blueviolet)
 - [ ] [Gabriel Cilfone](https://github.com/cilfonegabriel)
 - [ ] [Juan Vélez](https://github.com/juandapps)
+- [ ] [Kenbon T Nurgi](https://github.com/KenbonTN)
 - [ ] Inspiration
 
 # 📝 License
