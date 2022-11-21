@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');
 
 @font-face {
   font-family: "InaiMathi";
@@ -14,7 +15,6 @@
   --navColor: #3c3a39;
   --mainBgColor: #1c1c1c;
 }
-
 
 @keyframes blink {
   0% {
@@ -30,27 +30,14 @@
   }
 }
 
-@keyframes spacing {
-  0% {
-    letter-spacing: -15px;
-  }
-
-  20% {
-    letter-spacing: 10px;
-  }
-
-  100% {
-    letter-spacing: 2px;
-  }
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   align-items: center;
   width: 100%;
   overflow-x: hidden;
@@ -90,10 +77,9 @@ a:focus {
 
 #nav-first-a {
   text-transform: uppercase;
-  font-family: "Algerian";
+  font-family: "@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');";
   font-style: italic;
 }
-
 
 #nav-first-a:hover,
 #nav-first-a:focus {
@@ -636,7 +622,6 @@ a:focus {
     width: 10%;
     display: block;
     padding: 0;
-    /* margin: 1rem; */
   }
 
   #headline-last-div {
@@ -853,7 +838,7 @@ a:focus {
 
   #about-me-div {
     width: 50%;
-    padding: 0 0 0 8.8125rem
+    padding: 0 0 0 8.8125rem;
   }
 
   #about-me-empty-div {
@@ -922,7 +907,7 @@ a:focus {
 
   #projects-section-3 {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 1rem;
     overflow-wrap: break-word;
   }
