@@ -82,6 +82,31 @@ a:focus {
   font-style: italic;
 }
 
+/* Mobile Menu */
+#dropdown-nav {
+  position: absolute;
+  background-color: var(--navColor);
+  width: 100%;
+  height: 100vh;
+  padding: 0.5rem 1rem;
+  display: none;
+}
+
+#dropdown-menu {
+  list-style-type: none;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+#dropdown-menu li {
+  border-bottom: 1px solid #fff;
+  padding: 1rem;
+}
+
+#nav-close-btn {
+  float: right;
+}
+
 #nav-first-a:hover,
 #nav-first-a:focus {
   transform: rotate(360deg);
