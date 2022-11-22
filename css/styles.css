@@ -82,6 +82,21 @@ a:focus {
   font-style: italic;
 }
 
+.project-social-media li {
+  border: 1px solid #fff;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0.625rem;
+}
+
+.works-lang li {
+  border: 1px solid;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.239);
+}
+
 /* Mobile Menu */
 #dropdown-nav {
   position: absolute;
@@ -111,21 +126,6 @@ a:focus {
 #nav-first-a:focus {
   transform: rotate(360deg);
   transition-duration: 2s;
-}
-
-.project-social-media li {
-  border: 1px solid #fff;
-  font-weight: 500;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  background: rgba(255, 255, 255, 0.25);
-  padding: 0.625rem;
-}
-
-.works-lang li {
-  border: 1px solid;
-  padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.239);
 }
 
 #menu li {
