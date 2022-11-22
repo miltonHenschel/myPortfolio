@@ -34,6 +34,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -77,7 +78,7 @@ a:focus {
 
 #nav-first-a {
   text-transform: uppercase;
-  font-family: "@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');";
+  font-family: "Mrs Sheppards", sans-serif;
   font-style: italic;
 }
 
@@ -180,21 +181,14 @@ a:focus {
   display: block;
 }
 
+.hidden-nav,
 #project-1-button-hidden {
   display: none;
 }
 
-.hidden-nav {
-  display: none;
-}
-
-.hidden-img {
+#hidden-img {
   height: 1rem;
   width: 1rem;
-}
-
-.unhidden-img {
-  display: unset;
 }
 
 /* Headline */
@@ -205,7 +199,7 @@ a:focus {
   text-align: left;
   padding: 0 1.5rem;
   margin: 0;
-  height: 42rem;
+  height: 150vh;
   background-image: url("../images/header/header.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -798,6 +792,7 @@ a:focus {
     transform: scale(0.95);
   }
 
+  #dropdown-nav,
   #project-1-button {
     display: none;
   }
@@ -898,7 +893,7 @@ a:focus {
     width: 100%;
   }
 
-  .hidden-img,
+  #hidden-img,
   .flex-button,
   .hidden-obj,
   #social-media-footer-img {
