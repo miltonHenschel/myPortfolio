@@ -17,3 +17,12 @@ function hideMenu() {
   document.querySelector("#contact-social-form").style.display = "flex";
   document.querySelector("#social-media-footer-img").style.paddingTop = "0";
 }
+
+// click on the hamburger icon
+document.getElementById("hidden-img").addEventListener("click", showMenu);
+
+// click on the close icon
+document.getElementById("nav-close-btn").addEventListener("click", hideMenu);
+document.getElementById("dropdown-menu-portfolio").addEventListener("click", hideMenu);
+document.getElementById("dropdown-menu-about").addEventListener("click", hideMenu);
+document.getElementById("dropdown-menu-contact").addEventListener("click", hideMenu);
