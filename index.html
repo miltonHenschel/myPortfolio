@@ -13,24 +13,32 @@
   <!-- NAVBAR -->
   <header id="nav">
     <a id="nav-first-a" href="https://miltonhenschel.github.io/myPortfolio/">Henschel</a>
-    <nav>
+    <nav aria-label="nav-bar">
       <ul id="menu">
         <li>
-          <a class="hidden-nav" href="#projects-section-2">Portfolio</a>
+          <a id="menu-portfolio" class="hidden-nav" href="#projects-title">Portfolio</a>
         </li>
         <li>
-          <a class="hidden-nav" href="#about-me-div">About</a>
+          <a id="menu-about" class="hidden-nav" href="#about-me-div">About</a>
         </li>
         <li>
-          <a class="hidden-nav" href="#form">Contact</a>
+          <a id="menu-contact" class="hidden-nav" href="#form">Contact</a>
         </li>
         <li>
-          <a href="#social-media-footer"><img class="hidden-nav" src="images/nav/mail.png" width="55" height="55"
-              alt="mail icon"></a>
+          <a href="#social-media-footer"><img class="hidden-nav" src="images/nav/mail.png" alt="mail icon"></a>
         </li>
         <li>
-          <a><img class="hidden-img" src="images/nav/more.png" alt="Humburger icon" width="55" height="55"></a>
+          <a href="#"><img id="hidden-img" src="images/nav/more.png" alt="Humburger icon"></a>
         </li>
+      </ul>
+    </nav>
+
+    <nav id="dropdown-nav" aria-label="dropdown">
+      <a href="#"><img id="nav-close-btn" src="images/nav/close.png" alt="close icon"></a>
+      <ul id="dropdown-menu">
+        <li><a id="dropdown-menu-portfolio" class="dropdown-item" href="#projects-title">Portfolio</a></li>
+        <li><a id="dropdown-menu-about" class="dropdown-item" href="#about-me-div">About</a></li>
+        <li><a id="dropdown-menu-contact" class="dropdown-item" href="#form">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -287,6 +295,7 @@
     </ul>
     <img id="social-media-footer-img" src="images/social-media-footer/line.png" alt="line">
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -34,6 +34,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -53,6 +54,8 @@ body {
   gap: 50%;
   padding: 1rem 0;
   justify-content: space-around;
+  position: fixed;
+  width: 100%;
 }
 
 a,
@@ -77,14 +80,8 @@ a:focus {
 
 #nav-first-a {
   text-transform: uppercase;
-  font-family: "@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');";
+  font-family: "Mrs Sheppards", sans-serif;
   font-style: italic;
-}
-
-#nav-first-a:hover,
-#nav-first-a:focus {
-  transform: rotate(360deg);
-  transition-duration: 2s;
 }
 
 .project-social-media li {
@@ -100,6 +97,37 @@ a:focus {
   border: 1px solid;
   padding: 0.5rem;
   background-color: rgba(255, 255, 255, 0.239);
+}
+
+/* Mobile Menu */
+#dropdown-nav {
+  position: absolute;
+  background-color: var(--navColor);
+  width: 100%;
+  height: 100vh;
+  padding: 0.5rem 1rem;
+  display: none;
+}
+
+#dropdown-menu {
+  list-style-type: none;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+#dropdown-menu li {
+  border-bottom: 1px solid #fff;
+  padding: 1rem;
+}
+
+#nav-close-btn {
+  float: right;
+}
+
+#nav-first-a:hover,
+#nav-first-a:focus {
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
 #menu li {
@@ -180,21 +208,14 @@ a:focus {
   display: block;
 }
 
+.hidden-nav,
 #project-1-button-hidden {
   display: none;
 }
 
-.hidden-nav {
-  display: none;
-}
-
-.hidden-img {
+#hidden-img {
   height: 1rem;
   width: 1rem;
-}
-
-.unhidden-img {
-  display: unset;
 }
 
 /* Headline */
@@ -205,7 +226,7 @@ a:focus {
   text-align: left;
   padding: 0 1.5rem;
   margin: 0;
-  height: 42rem;
+  height: 150vh;
   background-image: url("../images/header/header.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -798,6 +819,7 @@ a:focus {
     transform: scale(0.95);
   }
 
+  #dropdown-nav,
   #project-1-button {
     display: none;
   }
@@ -898,7 +920,7 @@ a:focus {
     width: 100%;
   }
 
-  .hidden-img,
+  #hidden-img,
   .flex-button,
   .hidden-obj,
   #social-media-footer-img {
