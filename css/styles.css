@@ -54,6 +54,8 @@ body {
   gap: 50%;
   padding: 1rem 0;
   justify-content: space-around;
+  position: fixed;
+  width: 100%;
 }
 
 a,
