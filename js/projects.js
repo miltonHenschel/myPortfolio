@@ -1,78 +1,78 @@
-"use script";
+'use script';
 
 const projects = [
   {
     id: 0,
-    title: "Main Title",
-    technologies: ["css","html","bootstrap"],
-    image: "./images/projects/gymfit.png",
+    title: 'Main Title',
+    technologies: ['css', 'html', 'bootstrap'],
+    image: './images/projects/gymfit.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 2000s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 1,
-    title: "Title 1",
-    technologies: ["html","bootstrap","ruby"],
-    image: "./images/projects/project-1.png",
+    title: 'Title 1',
+    technologies: ['html', 'bootstrap', 'ruby'],
+    image: './images/projects/project-1.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1900s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 2,
-    title: "Title 2",
-    technologies: ["css","bootstrap","ruby"],
-    image: "./images/projects/project-2.png",
+    title: 'Title 2',
+    technologies: ['css', 'bootstrap', 'ruby'],
+    image: './images/projects/project-2.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1800s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 3,
-    title: "Title 3",
-    technologies: ["css","html","ruby"],
-    image: "./images/projects/project-3.png",
+    title: 'Title 3',
+    technologies: ['css', 'html', 'ruby'],
+    image: './images/projects/project-3.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1700s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 4,
-    title: "Title 4",
-    technologies: ["css","html","ror"],
-    image: "./images/projects/project-4.png",
+    title: 'Title 4',
+    technologies: ['css', 'html', 'ror'],
+    image: './images/projects/project-4.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1600s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 5,
-    title: "Title 5",
-    technologies: ["sass","html","bootstrap","ruby"],
-    image: "./images/projects/project-2.png",
+    title: 'Title 5',
+    technologies: ['sass', 'html', 'bootstrap', 'ruby'],
+    image: './images/projects/project-2.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
   {
     id: 6,
-    title: "Title 6",
-    technologies: ["scss","html","ruby"],
-    image: "./images/projects/project-3.png",
+    title: 'Title 6',
+    technologies: ['scss', 'html', 'ruby'],
+    image: './images/projects/project-3.png',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1400s, when an unknown printer took a standard dummy text",
-    live_version: "https://miltonhenschel.github.io/myPortfolio/",
-    source_code: "https://github.com/miltonHenschel/myPortfolio"
+    live_version: 'https://miltonhenschel.github.io/myPortfolio/',
+    source_code: 'https://github.com/miltonHenschel/myPortfolio',
   },
 ];
 
-const body = document.querySelector("body");
-const prjContent = document.createElement("section");
-const aboutMe = document.getElementById("about-me");
+const body = document.querySelector('body');
+const prjContent = document.createElement('section');
+const aboutMe = document.getElementById('about-me');
 
 // DYNAMIC PROJECTS SECTION
 body.insertBefore(prjContent, aboutMe);
-prjContent.id = "projects";
+prjContent.id = 'projects';
 prjContent.innerHTML = `
   <div id="projects-intro">
   <div>
@@ -179,11 +179,11 @@ prjContent.innerHTML = `
     </div>
 `;
 
-const prjBtn = document.querySelectorAll(".jsBtn");
+const prjBtn = document.querySelectorAll('.jsBtn');
 prjBtn.forEach((button) => {
-  button.addEventListener("click", () => {
-    const section = document.createElement("section");
-    section.className = "section-menu";
+  button.addEventListener('click', () => {
+    const section = document.createElement('section');
+    section.className = 'section-menu';
     section.innerHTML = `
     <div class="div-menu">
       <h3 id="div-menu-h3">${projects[button.id].title}</h3>
