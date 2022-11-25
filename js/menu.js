@@ -1,3 +1,5 @@
+"use script";
+
 function showMenu() {
   document.querySelector("#dropdown-nav").style.display = "block";
   document.querySelector("#headline").style.display = "none";
