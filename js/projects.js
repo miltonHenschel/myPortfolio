@@ -209,8 +209,8 @@ prjBtn.forEach((button) => {
     </div>
     `;
     body.appendChild(section);
-    const closeBtn = document.getElementById("menu-close-btn");
-    closeBtn.addEventListener("click", () => {
+    const closeBtn = document.getElementById('menu-close-btn');
+    closeBtn.addEventListener('click', () => {
       body.removeChild(section);
     });
   });

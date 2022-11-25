@@ -49,7 +49,6 @@ body {
   left: 1rem;
   right: 1rem;
   background: #fff;
-  position: fixed;
   top: 1rem;
   overflow-y: scroll;
   transition: 1s;
@@ -169,6 +168,25 @@ a:focus {
   display: inline;
 }
 
+#dropdown-menu li {
+  border-bottom: 1px solid #fff;
+  padding: 1rem;
+}
+
+#other-projects div ul li {
+  font-weight: 500;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#about-me-lang div ul li {
+  font-weight: 400;
+  font-size: 1.375rem;
+  padding: 1rem 0;
+  font-family: "Inter", sans-serif;
+}
+
 #menu:hover li,
 #menu:focus li {
   opacity: 0.2;
@@ -195,11 +213,6 @@ a:focus {
   list-style-type: none;
   padding-top: 2rem;
   font-size: 2rem;
-}
-
-#dropdown-menu li {
-  border-bottom: 1px solid #fff;
-  padding: 1rem;
 }
 
 #nav-close-btn {
@@ -399,13 +412,31 @@ a:focus {
   position: relative;
 }
 
+#about-me-lang div {
+  justify-content: center;
+}
+
+#about-me-lang div div {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#about-me-div p {
+  margin-top: 1.5rem;
+  color: #f4f5f7;
+  font-family: "Inter", sans-serif;
+}
+
 #other-projects div:hover,
 #other-projects div:focus {
   transform: scale(0.95);
 }
 
 #other-projects div h3,
-#other-projects div p,
 #other-projects div ul {
   backdrop-filter: blur(2px);
 }
@@ -422,19 +453,17 @@ a:focus {
   font-weight: 400;
 }
 
+#about-me-empty-div p {
+  display: none;
+}
+
 #other-projects div p {
   color: #fff;
+  backdrop-filter: blur(2px);
 }
 
 #other-projects div ul {
   padding: 0 1rem 0;
-}
-
-#other-projects div ul li {
-  font-weight: 500;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  background: rgba(255, 255, 255, 0.25);
 }
 
 .project-btn {
@@ -442,18 +471,6 @@ a:focus {
 }
 
 /* ABOUT ME */
-#about-me-div h2:hover,
-#about-me-div h2:focus {
-  animation: blink 1s linear infinite;
-}
-
-#about-me-lang div ul li:hover,
-#about-me-lang div div img:hover,
-#about-me-lang div ul li:focus,
-#about-me-lang div div img:focus {
-  transform: scale(0.95);
-}
-
 #about-me-div h2 {
   flex: none;
   order: 1;
@@ -465,6 +482,15 @@ a:focus {
   text-align: left;
 }
 
+#form h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem 2rem;
+  color: var(--blue);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
 #about-me-lang div div h2 {
   order: 2;
   font-family: "InaiMathi", sans-serif;
@@ -472,19 +498,25 @@ a:focus {
   font-weight: 700;
 }
 
-#about-me-empty-div p {
-  display: none;
-}
-
-#about-me-lang div ul li {
-  font-weight: 400;
-  font-size: 1.375rem;
-  padding: 1rem 0;
-  font-family: "Inter", sans-serif;
+#about-me-div h2:hover,
+#about-me-div h2:focus {
+  animation: blink 1s linear infinite;
 }
 
 #about-me-lang div div img {
   order: 1;
+}
+
+#contact-social-form li:hover,
+#contact-social-form li:focus {
+  transform: scale(1.1);
+}
+
+#about-me-lang div ul li:hover,
+#about-me-lang div div img:hover,
+#about-me-lang div ul li:focus,
+#about-me-lang div div img:focus {
+  transform: scale(0.95);
 }
 
 #about-me {
@@ -494,12 +526,6 @@ a:focus {
 #about-me button {
   padding: 1rem;
   margin: 2rem 0 0;
-}
-
-#about-me-div p {
-  margin-top: 1.5rem;
-  color: #f4f5f7;
-  font-family: "Inter", sans-serif;
 }
 
 #about-me-div {
@@ -542,19 +568,6 @@ a:focus {
   padding: 10rem 0;
 }
 
-#about-me-lang div {
-  justify-content: center;
-}
-
-#about-me-lang div div {
-  padding: 1rem 0;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 #about-me-lang div div h2:hover,
 #about-me-lang div div h2:focus {
   animation: change-color 1s linear infinite;
@@ -573,15 +586,6 @@ a:focus {
   font-family: "Crimson Pro", sans-serif;
   border: 0;
   margin: 1rem;
-}
-
-#form h2 {
-  font-size: 2rem;
-  text-align: center;
-  padding: 0 2rem 2rem;
-  color: var(--blue);
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
 }
 
 #contact-form {
@@ -626,11 +630,6 @@ a:focus {
 }
 
 /* CONTACT SOCIAL MEDIA */
-#contact-social-form li:hover,
-#contact-social-form li:focus {
-  transform: scale(1.1);
-}
-
 #contact-social-form {
   padding-bottom: 1rem;
   margin: 0;
