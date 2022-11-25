@@ -22,7 +22,7 @@ To get a local copy up and running, follow these simple steps below.
 - [ ] A PC running any operating system like Windows, Linux, or MacOS
 - [ ] An Internet connection
 - [ ] A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
-- [ ] Git installed 
+- [ ] Git installed
 - [ ] Knowledge of some basic Git commands
 
 ### Setup
