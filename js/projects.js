@@ -179,6 +179,7 @@ prjContent.innerHTML = `
     </div>
 `;
 
+// CTREATE POP UP WINDOW
 const prjBtn = document.querySelectorAll('.jsBtn');
 prjBtn.forEach((button) => {
   button.addEventListener('click', () => {
