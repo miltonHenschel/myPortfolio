@@ -462,6 +462,7 @@ a:focus {
 /* FORM VALIDATION START */
 #contact-form p {
   justify-content: center;
+  color: var(--error-color);
   display: none;
 }
 
@@ -614,6 +615,7 @@ a:focus {
   border-bottom: 0.1rem solid;
   color: #979493;
   font-size: 1rem;
+  width: 100%;
 }
 
 #message {
