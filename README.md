@@ -99,19 +99,6 @@ In order to run this project you need:
 - [ ] A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
 - [ ] Git installed
 
-### Install
-
-- [ ] node_models
-- [ ] project dependencies
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 - [ ] Link your PC to GitHub
@@ -123,11 +110,13 @@ Example command:
 - [ ] Open the file in your code editor
 - [ ] Setup JavaScript + CSS + HTML linter
 
+Run the following codes in your project folder in your IDE: `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x` `npx stylelint "**/*.{css,scss}"` `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x` `npx eslint .`
+
 ### Install
 
 Install this project with:
 
-- [ ] node_models
+- [ ] node_models `npm install -g node-modules`
 - [ ] project dependencies
 
 <!--
@@ -198,9 +187,10 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project.-->
-- [ ] **[Light/Dark mode]**
-- [ ] **[Scroll to the top]**
-- [ ] **[Scroll to the bottom]**
+- [ ] **Light/Dark mode**
+- [ ] **Scroll to the top button**
+- [ ] **Scroll to the bottom button**
+- [ ] **Use previous and next buttons to navigate projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
