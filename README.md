@@ -70,7 +70,8 @@
 - **Mobile version**
 - **Desktop version**
 - **Mobile menu**
-- **Desktop pop up window**
+- **Popup Project Details Window**
+- **Email validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
