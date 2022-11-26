@@ -8,6 +8,7 @@ const emailRegex = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+$/;
 
 form.addEventListener('submit', (e) => {
   if (!emailRegex.test(email.value)) {
+    e.preventDefault();
     errorMessage.style.display = 'block';
     email.style.border = '1px solid var(--error-color)';
     email.style.borderRadius = '1rem';
@@ -15,7 +16,7 @@ form.addEventListener('submit', (e) => {
 });
 
 // LOCAL STORAGE
-let localData = {
+const localData = {
   name: '',
   email: '',
   message: '',
