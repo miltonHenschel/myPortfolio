@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
   if (!emailRegex.test(email.value)) {
     e.preventDefault();
     errorMessage.style.display = 'flex';
-    email.style.border = "1px solid var(--error-color)";
-    email.style.borderRadius = "1rem";
+    email.style.border = '1px solid var(--error-color)';
+    email.style.borderRadius = '1rem';
   }
 });
