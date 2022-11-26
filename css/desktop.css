@@ -1,0 +1,337 @@
+@media (min-width: 768px) {
+  /* HEADER */
+  #nav {
+    padding: 1rem 0;
+  }
+
+  #menu {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .hidden-nav {
+    display: inline;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  #hidden-img {
+    display: none;
+  }
+
+  #dropdown-nav {
+    display: none;
+  }
+
+  /* HEADLINE */
+  #headline {
+    flex-direction: row;
+    align-items: center;
+    background-image: none;
+    padding: 0;
+  }
+
+  #headline div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+    width: 45%;
+    padding-top: 0;
+    height: 100%;
+  }
+
+  #headline-social-media {
+    order: 1;
+    width: 10%;
+    display: block;
+    padding: 0;
+  }
+
+  #headline-last-div {
+    background-image: url(../images/header/desktop-header.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: contain;
+  }
+
+  #headline h1 {
+    font-size: 4.5rem;
+  }
+
+  #headline h2 {
+    font-size: 2rem;
+  }
+
+  #headline p {
+    font-size: 1.25rem;
+  }
+
+  .social-media li {
+    padding: 0 0 1rem 2rem;
+  }
+
+  .social-media {
+    list-style-type: none;
+    background: none;
+    gap: 0;
+    padding: 0;
+  }
+
+  .div-menu-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #headline img {
+    order: 3;
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+
+  /* PROJECTS KEEP */
+  #projects {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8.8125rem 0;
+  }
+
+  #projects-hr {
+    width: 50%;
+    margin: auto;
+  }
+
+  #projects-intro {
+    order: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+  }
+
+  #projects-intro div {
+    display: flex;
+  }
+
+  #projects-title {
+    padding: 5rem 0 5rem;
+    font-size: 2.5rem;
+  }
+
+  .project-heading {
+    padding-top: 0;
+  }
+
+  #other-projects {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  #other-projects div {
+    padding-top: 11.125rem;
+  }
+
+  #project-1 {
+    background-image: url("../images/projects/project-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #project-1 .project-heading,
+  #project-1 .project-description,
+  #project-1 .project-lang {
+    visibility: hidden;
+  }
+
+  #project-2,
+  #project-5 {
+    background-image: url("../images/projects/project-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #project-3,
+  #project-6 {
+    background-image: url("../images/projects/project-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #project-4 {
+    background-image: url("../images/projects/project-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* ABOUT ME */
+  #about-me h2 {
+    color: var(--mainColor);
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: "Crete Round", sans-serif;
+  }
+
+  #about-me button {
+    margin: 2rem 0 8rem 0;
+  }
+
+  #about-me-div h2 {
+    margin-top: 5rem;
+  }
+
+  #about-me-div p {
+    font-size: 1.25rem;
+  }
+
+  #about-me-main-content {
+    flex-direction: row;
+  }
+
+  #about-me ul {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  #about-me-div {
+    width: 50%;
+    padding: 0 0 0 8.8125rem;
+  }
+
+  #about-me-empty-div {
+    background-image: url("../images/about-me/desktop-about-me.png");
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    height: auto;
+  }
+
+  #about-me-div hr {
+    width: 85%;
+  }
+
+  #about-me-lang {
+    display: flex;
+    padding: 0 8.875rem 10rem;
+    justify-content: space-between;
+  }
+
+  #about-me-lang div {
+    margin-top: 5rem;
+  }
+
+  #about-me-lang div ul {
+    align-items: flex-start;
+  }
+
+  #about-me-lang div ul li:hover,
+  #about-me-lang div div img:hover,
+  #about-me-lang div ul li:focus,
+  #about-me-lang div div img:focus {
+    transform: scale(0.95);
+  }
+
+  /* FORM */
+  #form {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+  }
+
+  #form h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    width: 28.4375rem;
+    margin: 0 0 0 8.4375rem;
+    padding: 0;
+  }
+
+  #contact-form {
+    padding: 0;
+    width: 65%;
+    margin: 0 8.4375rem 0 0;
+  }
+
+  #form-button {
+    margin-left: 0;
+  }
+
+  #email,
+  #name {
+    width: 100%;
+  }
+
+  #message {
+    margin-bottom: 1.5rem;
+  }
+
+  /* CONTACT SOCIAL MEDIA */
+  #contact-social-form {
+    display: flex;
+    justify-content: center;
+    width: unset;
+  }
+
+  #social-media-footer-img {
+    display: none;
+  }
+
+  /* PROJECT DETAILS */
+  .section-menu {
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .div-menu {
+    display: flex;
+    margin: 0 2rem 0.5rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .div-menu h3 {
+    font-size: 3rem;
+  }
+
+  #div-section-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  #div-menu-last {
+    justify-content: flex-start;
+  }
+
+  #menu-close-btn {
+    width: 32px;
+    margin: 0;
+  }
+
+  #div-section {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  #div-section-menu {
+    display: flex;
+    margin: -0.5rem 0 0 -2rem;
+    width: 40%;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .div-menu-img {
+    padding: 0 2rem 1.5rem;
+    width: 70vw;
+    height: 70vh;
+  }
+}

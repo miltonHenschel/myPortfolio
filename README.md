@@ -94,9 +94,9 @@ In order to run this project you need:
 
 - [ ] A PC running any operating system like Windows, Linux, or MacOS
 - [ ] An Internet connection
-- [ ] A browser like Google Chrome or Mozilla Firefox
-- [ ] Git installed 
 - [ ] Knowledge of some basic Git commands
+- [ ] A browser like Microsoft Edge, Google Chrome or Mozilla Firefox
+- [ ] Git installed
 
 ### Install
 
