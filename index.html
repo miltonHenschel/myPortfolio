@@ -7,6 +7,7 @@
   <title>Henschel's Portfolio</title>
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
@@ -135,13 +136,24 @@
     <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
     <form id="contact-form" action="https://formspree.io/f/mrgdolqb" method="POST">
-      <input type="text" autocomplete="off" name="name" id="name" placeholder="Full name" maxlength="30" required />
 
-      <input type="email" autocomplete="off" name="email" id="email" placeholder="johndoe@google.com" required />
+      <div class="form-field">
+        <label for="email"></label>
+        <input type="text" autocomplete="off" name="name" id="name" placeholder="Full name" maxlength="30" required />
+      </div>
 
-      <textarea name="message" id="message" maxlength="500" placeholder="Write a message" required></textarea>
+      <div class="form-field">
+        <label for="email"></label>
+        <input type="email" autocomplete="off" name="email" id="email" placeholder="abc@xyz.com" required />
+      </div>
 
-      <button id="form-button" class="button" type="submit">Get in touch</button>
+      <div class="form-field">
+        <label for="message"></label>
+        <textarea name="message" id="message" maxlength="500" placeholder="Write a message" required></textarea>
+      </div>
+
+      <p class="error-message">EMAIL IS INVALID</p>
+      <button id="form-button" class="button">Get in touch</button>
     </form>
   </section>
 
@@ -165,6 +177,7 @@
   <!-- JAVASCRIPT  -->
   <script src="js/menu.js"></script>
   <script src="js/projects.js"></script>
+  <script src="js/form-validation.js"></script>
 </body>
 
 </html>

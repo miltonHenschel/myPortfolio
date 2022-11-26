@@ -14,6 +14,9 @@
   --blue: #172b4d;
   --navColor: #3c3a39;
   --mainBgColor: #1c1c1c;
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
 }
 
 @keyframes blink {
@@ -627,6 +630,12 @@ a:focus {
 
 #form-button {
   margin: auto;
+}
+
+/* FORM VALIDATION */
+#contact-form  p {
+  justify-content: center;
+  display: none;
 }
 
 /* CONTACT SOCIAL MEDIA */
