@@ -273,17 +273,33 @@
 
   /* PROJECT DETAILS */
   .section-menu {
-    left: 5rem;
-    right: 5rem;
-    top: 10rem;
-    bottom: 10rem;
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+    bottom: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+  }
+
+  .div-menu {
+    display: flex;
+    margin: 0 2rem 0.5rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  .div-menu h3 {
+    font-size: 3rem;
+  }
+
+  #menu-close-btn {
+    width: 32px;
+    margin: 0;
   }
 
   #div-section {
     display: flex;
+    margin-top: 2rem;
   }
 
   #div-section-menu {
@@ -292,9 +308,17 @@
     width: 40%;
     flex-direction: column;
     gap: 2rem;
+    justify-content: space-between;
   }
 
   .div-menu-img {
     padding: 0 2rem 1.5rem;
+    width: 70vw;
+    height: 70vh;
+  }
+
+  .div-menu-img img {
+    height: 100%;
+    width: 100%;
   }
 }
