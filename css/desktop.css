@@ -79,6 +79,11 @@
     padding: 0;
   }
 
+  .div-menu-img img {
+    height: 100%;
+    width: 100%;
+  }
+
   #headline img {
     order: 3;
     height: 1.25rem;
@@ -286,7 +291,7 @@
     margin: 0 2rem 0.5rem 2rem;
     align-items: center;
     justify-content: space-between;
-}
+  }
 
   .div-menu h3 {
     font-size: 3rem;
@@ -315,10 +320,5 @@
     padding: 0 2rem 1.5rem;
     width: 70vw;
     height: 70vh;
-  }
-
-  .div-menu-img img {
-    height: 100%;
-    width: 100%;
   }
 }

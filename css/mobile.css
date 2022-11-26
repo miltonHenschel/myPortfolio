@@ -460,6 +460,14 @@ a:focus {
   display: none;
 }
 
+/* FORM VALIDATION START */
+#contact-form p {
+  justify-content: center;
+  display: none;
+}
+
+/* FORM VALIDATION END */
+
 #other-projects div p {
   color: #fff;
   backdrop-filter: blur(2px);
@@ -630,12 +638,6 @@ a:focus {
 
 #form-button {
   margin: auto;
-}
-
-/* FORM VALIDATION */
-#contact-form  p {
-  justify-content: center;
-  display: none;
 }
 
 /* CONTACT SOCIAL MEDIA */
