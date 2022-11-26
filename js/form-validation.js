@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
 });
 
 // LOCAL STORAGE
-const localData = {
+let localData = {
   name: '',
   email: '',
   message: '',
