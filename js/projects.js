@@ -188,7 +188,7 @@ prjBtn.forEach((button) => {
     section.innerHTML = `
     <div class="div-menu">
       <h3 id="div-menu-h3">${projects[button.id].title}</h3>
-      <img id="menu-close-btn" src="./images/nav/close.png" />
+      <div><img id="menu-close-btn" src="./images/nav/close.png" /></div>
     </div>
     <div class="div-menu">
       <ul>
