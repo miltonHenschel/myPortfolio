@@ -18,8 +18,8 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  <!-- - [Usage](#usage)
-  - [Run tests](#run-tests)-->
+  <!-- - [Usage](#usage)-->
+  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -69,9 +69,13 @@
 <!-- > Describe between 1-3 key features of the application.-->
 - **Mobile version**
 - **Desktop version**
+- **Application deploy**
 - **Mobile menu**
+- **Evaluate accessibility**
 - **Popup Project Details Window**
-- **Email validation**
+- **Form validation**
+- **Preserve data in the browser**
+- Project 1: Setup and mobile version skeleton
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +114,7 @@ In order to run this project you need:
 - [ ] Open the file in your code editor
 - [ ] Setup JavaScript + CSS + HTML linter
 
-Run the following codes in your project folder in your IDE: `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x` `npx stylelint "**/*.{css,scss}"` `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x` `npx eslint .`
+Run the following codes in your project folder in your IDE: `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x` `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
 
 ### Install
 
@@ -140,17 +144,9 @@ Example command:
 ```
 --->
 
-<!--
-### Run tests
+### Run tests <a name="run-tests"></a>
 
-To run tests, run the following command:
-
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+To run Stylelint and ESLint tests, run the following commands `npx stylelint "**/*.{css,scss}"` `npx eslint .` respectively.
 
 ### Deployment <a name="deployment"></a>
 
@@ -188,7 +184,7 @@ Example:
 
 <!-- > Describe 1 - 3 features you will add to the project.-->
 - [ ] **Light/Dark mode**
-- [ ] **Scroll to the top button**
+- [ ] **Scroll to the top and bottom buttons**
 - [ ] **Scroll to the bottom button**
 - [ ] **Use previous and next buttons to navigate projects**
 
@@ -221,9 +217,9 @@ Give a ⭐️ if you like this project!
 ## ❓ FAQ <a name="faq"></a>
 
 <!-- > Add at least 2 questions new developers would ask when they decide to use your project.-->
-- **How to setup JavaScript + CSS + HTML linter?**
+- **How to fix JavaScript + CSS + HTML linter errors?**
 
-  - Kindly create the files `.eslintrc.json` `.hintrc` `.stylelintrc.json` and the folder `.github/workflows/linters.yml` in your project's root directory and copy their contents.
+  - Kindly use `npx stylelint "**/*.{css,scss} --fix"` and `npx eslint . --fix` in the project's root directory.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
