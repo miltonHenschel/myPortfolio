@@ -75,7 +75,6 @@
 - **Popup Project Details Window**
 - **Form validation**
 - **Preserve data in the browser**
-- Project 1: Setup and mobile version skeleton
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
