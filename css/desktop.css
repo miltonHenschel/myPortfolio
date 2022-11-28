@@ -24,6 +24,11 @@
   }
 
   /* HEADLINE */
+  #main-section {
+    background-color: var(--mainBgColor);
+    background-image: none;
+  }
+
   #headline {
     flex-direction: row;
     align-items: center;
@@ -38,7 +43,6 @@
     order: 2;
     width: 45%;
     padding-top: 0;
-    height: 100%;
   }
 
   #headline-social-media {

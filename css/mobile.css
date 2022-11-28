@@ -44,7 +44,28 @@ html,
 body {
   align-items: center;
   width: 100%;
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
+}
+
+/* SCROLL BUTTON */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /* PROJECT DETAILS */
@@ -59,6 +80,7 @@ body {
   bottom: 1rem;
   backdrop-filter: blur(5px);
   border: 1px solid;
+  border-radius: 1rem;
 }
 
 .div-menu {
@@ -76,12 +98,12 @@ body {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 1rem;
 }
 
 .div-menu-li {
   border: 1px solid;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .div-menu-img {
@@ -93,7 +115,7 @@ body {
 }
 
 #div-menu-last {
-  padding: 0 2rem 2rem;
+  padding: 0 2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,6 +139,13 @@ body {
 }
 
 /* HEADER */
+#main-section {
+  background-image: url("../images/header/header.png");
+  background-position: 100% 110%;
+  background-color: var(--mainBgColor);
+  background-repeat: no-repeat;
+}
+
 #nav {
   display: flex;
   background-color: var(--navColor);
@@ -217,8 +246,13 @@ a:focus {
   font-size: 2rem;
 }
 
+#dropdown-nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #nav-close-btn {
-  float: right;
+  position: fixed;
 }
 
 #headline-social-media {
@@ -227,7 +261,7 @@ a:focus {
 
 /* HEADLINE */
 #headline {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
@@ -237,7 +271,26 @@ a:focus {
   background-image: url("../images/header/header.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-color: var(--mainBgColor);
+  background-color: var(--mainBgColor); */
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: flex-start; */
+
+  /* text-align: left; */
+  padding: 0 1.5rem;
+
+  /* margin: 0; */
+
+  /* height: 100vh; */
+
+  /* background-image: url(../images/header/header.png); */
+
+  /* background-repeat: no-repeat; */
+
+  /* background-position: right bottom; */
+
+  /* background-color: var(--mainBgColor); */
 }
 
 #headline div {
